@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        
+</head>
+<body>
+
+    <nav style="padding: 10px 10px 10px 10px" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a  class="navbar-brand" href="#">  </a>  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="text-align:center collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Search.html">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>    
+  
+    <div class="container">
+        <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
+        <br>
+        <br>
+<div class="container">
+  
+        <p style="text-align:justify">Over 100,000 dental practices in US and each one of them are looking for tem staff. Unlike traditional staffing agencies, we connect you directly with dental professionals.</p>
+    </div>
+      </div>        
+    <div style="margin-top:30px" class="container">
+    <div class="container form-group">
+              
+                <select class="form-control" id="clinicalstaff">
+                  <option>Clinical Staff</option>
+                  <option value="RDH">RDH</option>
+                  <option value="RDA">RDA</option>
+                  <option value="DDS,DMD">DDS,DMD</option>
+                  <option value="BS">Business Coordinator</option>
+                </select>
+              </div>
+              <div class="container form-group">
+                    
+                <select id="state" class="form-control" required >
+				<small class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+				<option value="" >State</option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>                                                      
+             </select>
+                    <br>
+                    <a href="./find.html" type="button" id='find' class="btn btn-warning btn-prima btn-block">Find Now!</a>
+			</div>
+        
+    
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+		
+			$('#find').click(function(){
+				var clinicalstaff = $('#clinicalstaff').val(),
+					state = $('#state').val();
+			
+				setTimeout(function(){											
+					window.location.href="./find.html?cs="+clinicalstaff+"&st="+state;
+				}, 0);		
+				
+				e.preventDefault();
+				
+				
+
+			});
+		
+		});
+	</script>
+   
+</body>
+
+</html>

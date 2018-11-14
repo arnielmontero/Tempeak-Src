@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Choose Plan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+
+    <!--
+        <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
+        <link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
+    -->
+    <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
+</head>
+
+<body >
+
+    <form>
+        <div class="container">
+            <h3 style="margin-top: 30px" class="form-group col-md-4 text-warning">Edit Profile</h3>
+
+           
+            <div class="form-group col-md-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                </div>
+                 <div class="form-group">
+					<div class="row">
+							<div class="d-flex align-items-center col-4">
+								<span class="d-flex align-items-center">Birth of date</span>
+							</div>
+							<div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Birth of date" />
+							</div>
+			   
+						</div>
+						
+					</div>
+              <div class="form-group">
+                  <select id="state" class="form-control"  >
+					 <small class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+							<option value=""  >State</option>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ" >Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>                                                      
+						 </select>
+                </div>
+               
+               <div class="form-group">
+				<select id="city" name="city" class="form-control"  >
+				<small class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+				<option value="">City</option>
+
+				
+			</select>
+			   
+			   </div>
+               <div class="form-group">
+				  <input type="text" id='address' class="form-control" placeholder="Address" required >
+          
+			   </div>
+               <div class="form-group">
+				  <input type="number" id='zip' class="form-control" placeholder="Zip code" required >
+            
+			   </div>
+               <div class="form-group">
+				 <input type="number" id='phone' class="form-control" placeholder="Phone" required >
+			   </div>
+				  <div class="form-group">
+					 <select id="experience" class="form-control"  >
+					<small id="emailHelp" class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+					   <option value="">Years of Experience</option>
+					   <option value="1-2">1-2 years</option>
+					   <option value="2-5">2-5 years</option>
+					   <option value="5-10">5-10 years</option>
+					   <option value="10-more">Over 10 years</option>
+					 </select>
+			   </div>
+               <div class="form-group">
+				<input type="text" class="form-control" id="school" placeholder="What school you attend" required >
+           
+			   </div>
+               <div class="form-group">
+					<div class="row">
+							<div class="d-flex align-items-center col-4">
+								<span class="d-flex align-items-center">Year of Graduation</span>
+							</div>
+							<div class="col-8">
+								<input class="d-flex align-items-center form-control" id="graduation" name="date" type="date"  />
+							</div>
+					</div>
+               </div>
+             <div class="form-group">
+                      <input type="number" class="form-control" id="license_number" placeholder="License Number" required >
+                    </div>
+			<div class="form-group">
+                          <input type="text" class="form-control" id="distance" placeholder="No. of miles to commute" required >
+                        </div>
+			 <div class="form-group">
+                              <input type="text" class="form-control" id="salary" placeholder="Hourly salary" required >
+                            </div>			
+           
+				
+                 <!--<div class="form-group">
+                    <input type="text" class="form-control date-widget" id='birthday' placeholder="Date of Birth" required>
+                </div>-->
+            </div>
+
+            <div class="bootstrap-iso">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                            <!-- Form code begins    -->
+                            <div class="row">
+                               
+                            </div>
+                            <br>
+                        
+                            <!-- Form code ends -->
+                          <div class="msg text-success" ></div>
+                            <br />
+
+                            <!--   <a href="./Registration2.html" class="btn btn-warning btn-prima btn-block" id="next" role="button">Next</a>-->
+
+                            <button type='submit' class="btn btn-warning btn-prima" id="eregister">Update</button>
+                            <div href="#" class="btn btn-warning btn-prima" id="cllee" >Close</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <br>
+    <div class="container">
+            <p style="margin-top:20px">Need Help? <a href="#">FAQ Here!</a></p>
+            <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <!-- additional links  -->
+    <script type="text/javascript" src="js/jquery.ui.js"></script>
+    <script type="text/javascript" src="js/jquery.moment.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	
+	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+
+	
+	<script>
+	
+		
+	
+		$(document).ready(function(){
+
+			
+			var link = window.location.href; 
+			var url = new URL(link);
+			var keyr = url.searchParams.get("key");
+				
+			if(keyr !== ""){
+				sessionStorage.setItem('key', keyr);
+			}							
+			var key = sessionStorage.getItem("key");
+			
+			$('#cllee').click(function(e){			
+			
+				setTimeout(function(){											
+						window.location.href="./profilecontractor.html?key="+key;
+						<!-- window.location.href="./profilecontractor.html"; -->
+				}, 0);		
+				e.preventDefault();
+			});
+			
+			var form_datas = new FormData(); 				
+			form_datas.append('key', key);
+			
+			
+				$.ajax({
+					url: hosturl +'information', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_datas,                         
+					type: 'post',
+					success: function(data){				
+						datamas(data);		
+					}
+				 });					
+			
+			
+			
+			function datamas(x){				
+				var info = JSON.parse(x);						
+				$('#firstname').val(info[0].first_name);
+				$('#lastname').val(info[0].last_name);
+				$('#address').val(info[0].address);
+				$('#zip').val(info[0].zip_code);
+				$('#phone').val(info[0].phone);
+				$('#school').val(info[0].school);
+				$('#license_number').val(info[0].license_number);
+				$('#distance').val(info[0].distance);
+				$('#salary').val(info[0].salary);	
+				sessionStorage.setItem('userid',info[0].user_id);
+				sessionStorage.setItem('keys',info[0].remember_token);
+				
+			}			 
+
+				
+			$('#eregister').click(function(e){
+				var userid = sessionStorage.getItem('userid');
+				var keys = sessionStorage.getItem('keys');
+			
+			
+			
+				var firstname = $('#firstname').val(),
+					lastname = $('#lastname').val(),
+					address = $('#address').val(),
+					zip = $('#zip').val(),
+					phone = $('#phone').val(),
+					school = $('#school').val(),
+					license_number = $('#license_number').val(),
+					experience = $('#experience').val(),					
+					date = $('#date').val(),
+					state = $('#state').val(),
+					city = $('#city').val(),			
+					graduation = $('#graduation').val();
+					salary = $('#salary').val();
+					distance = $('#distance').val();
+					
+				var form_data = new FormData(); 
+
+					form_data.append('firstname', firstname);
+					form_data.append('lastname', lastname);
+					form_data.append('address', address);
+					form_data.append('zip', zip);
+					form_data.append('phone', phone);
+					form_data.append('school', school);
+					form_data.append('license_number', license_number);
+					form_data.append('salary', salary);
+					form_data.append('distance', distance);
+					form_data.append('id', userid);
+					form_data.append('key', keys);
+			
+				
+				if(date !== ""){
+					form_data.append('dob', date);
+				}
+				if(state !== ""){
+					form_data.append('state', state);
+				}
+				if(city !== ""){
+					form_data.append('city', city);
+				}
+				if(graduation !== ""){
+					form_data.append('graduation', graduation);
+				}				
+					$.ajax({
+						url: hosturl +'update_contractor_information', // point to server-side PHP script 
+						dataType: 'text',  // what to expect back from the PHP script, if anything
+						cache: false,
+						contentType: false,
+						processData: false,
+						data: form_data,                         
+						type: 'post',
+						success: function(data){	
+
+							<!-- alert(data); -->
+							<!-- sessionStorage.setItem("info", data);							 -->
+							$('div.msg').text("Information successfully update.");
+						}
+					 });			 
+
+					 
+				e.preventDefault();	
+					 
+			});		
+			$('#state value:contains(az)').prop('selected',true);
+		
+		});
+	
+		
+
+	
+	</script>
+	  
+	<!--  end here-->
+	
+
+
+</body>
+
+</html>

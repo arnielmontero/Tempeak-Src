@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+		        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+	  <br>
+          <div class="container d-flex align-items-center">
+              <i style="margin-left:20px" class="material-icons">
+                      arrow_back_ios
+                      </i><a class="text-warning" onclick="back()" href="">Return to Dashboard</a>   
+              </div>
+  
+   
+
+    <div class="container">
+        <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
+        <br>
+	</div>
+  <div class='rs'>
+        
+  </div>
+       
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>
+	
+   <script>
+		window.history.pushState(null, "", window.location.href);        
+		window.onpopstate = function() {
+			window.history.pushState(null, "", window.location.href);
+		};
+				  
+		var link = window.location.href; 
+		var url = new URL(link);
+		var cs = url.searchParams.get("cs");
+		var st = url.searchParams.get("st");
+		var dt = url.searchParams.get("dt");
+		var tm = url.searchParams.get("tm");
+		var k = url.searchParams.get("k");
+		var ix = url.searchParams.get("id");
+		
+		sessionStorage.setItem('cs',cs);
+		var clinicalstaff = sessionStorage.getItem('cs');
+		
+		sessionStorage.setItem('st',st);
+		var state = sessionStorage.getItem('st');
+		
+		sessionStorage.setItem('dt',dt);
+		var date = sessionStorage.getItem('dt');
+		
+		sessionStorage.setItem('tm',tm);
+		var time = sessionStorage.getItem('tm');
+		
+		sessionStorage.setItem('k',k);
+		var key = sessionStorage.getItem('k');
+		
+		sessionStorage.setItem('ix',ix);
+		var idx = sessionStorage.getItem('ix');
+		
+		
+		
+		
+	function back(){
+		setTimeout(function(){											 
+				window.location.href="./Profile2.html?key="+key;
+			}, 0);		
+	}	
+		
+		
+   
+   
+	$(document).ready(function(){
+
+		var form_data = new FormData();   
+			form_data.append('clinicalstaff', clinicalstaff);
+			form_data.append('state',state);
+		
+			$.ajax({
+					url: hosturl +'searchto', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_data,                         
+					type: 'post',
+					success: function(php_script_response){						
+						$(".rs").append(php_script_response);
+						
+					}
+				 });									
+	});
+	
+	var x;
+	
+   	function myid(x){		
+		setTimeout(function(){											
+			window.location.href="./profileviews.html?id="+x+"&cs="+cs+"&st="+st+"&dt="+dt+"&tm="+tm+"&k="+k;
+		}, 0);		
+	
+	}
+	
+
+	
+	
+	function request(a){
+	
+		<!-- form_data = new FormData();    -->
+		<!-- form_data.append('id', x); -->
+		<!-- var info = JSON.parse(sessionStorage.getItem('info')); -->
+		var boid = idx;
+		var coid = a;
+		var datex = date;
+		var timex = time;
+
+		
+		form_data = new FormData();  
+		form_data.append('boid', boid);
+		form_data.append('coid', coid);
+		form_data.append('date', datex);
+		form_data.append('time', timex);
+		
+		$.ajax({
+			url: hosturl +'reqschedule', // point to server-side PHP script 
+			dataType: 'text',  // what to expect back from the PHP script, if anything
+			cache: false,
+			contentType: false,
+			processData: false,
+			data: form_data,                         
+			type: 'post',
+			success: function(php_script_response){						
+
+				alert('Your request has send.. waiting for approval.');
+				setTimeout(function(){											
+						window.location.href="./Profile2.html?key="+key;
+					}, 0);		
+			}
+		 });			
+
+	}
+	
+	  
+   </script>
+   
+   
+</body>
+
+</html>

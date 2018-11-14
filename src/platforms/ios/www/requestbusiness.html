@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          
+</head>
+<body>
+
+      
+        <br>
+        <div class="container d-flex align-items-center">
+            <i style="margin-left:20px" class="material-icons">
+                    arrow_back_ios
+                    </i><a class="text-warning" href=""  onclick="backdash()">Return to Dashboard</a>   
+            </div>
+            <div class="container">
+                    <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
+                    <br>
+<div class="container">
+<div class="card">
+        <h4 class="text-warning card-header">Request Status</h4>
+        <div class="card-body">         
+                <div>
+                        <div class="row">
+                          <div class="col">
+                            <a href="#">Name</a>
+                            
+                          </div>
+                          <div class="col">
+                              <a href="#">Date</a>
+                         
+                          </div>
+                          <div class="col">
+                              <a href="#">Status</a>
+                        
+                          </div>
+                  
+                        </div>
+                        <br>
+                        <div class='rs' >                          
+
+						</div>
+				</div>
+		</div>
+  </div>
+  
+<br>
+<br>
+<div class="container">
+                                        
+        <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+					<p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+    
+        </div>
+  
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+
+  <script>
+	var link = window.location.href; 
+	var url = new URL(link);
+	var keyr = url.searchParams.get("key");
+	var uid = url.searchParams.get("id");
+
+	sessionStorage.setItem('key',keyr);
+	var key = sessionStorage.getItem('key');
+	
+	sessionStorage.setItem('uids',uid);
+	var uids = sessionStorage.getItem('uids');
+  
+  
+	function backdash(){
+		setTimeout(function(){											
+					window.location.href="./Profile2.html?key="+key;
+				}, 0);	
+	
+	}
+
+	<!-- var x = JSON.parse(sessionStorage.getItem('info')); -->
+		<!-- var userid = x[0].user_id; -->
+		
+		var form_data = new FormData();
+		
+		form_data.append('id',uids);
+		
+		$.ajax({
+					url: hosturl +'getmyrequest', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_data,                         
+					type: 'post',
+					success: function(data){	
+						$('.rs').append(data);
+					}
+				 });		
+
+		
+		$(document).ready(function(){
+			
+			function dosave(x){
+				var x = "";
+				var stats = $("#status"+x).val();
+				var comment = $("#comment"+x).val();	
+		
+				
+				if(stats > 0){
+							
+				var form_data = new FormData();		
+					form_data.append('id', x);
+					form_data.append('status', stats);
+					form_data.append('comment', comment);
+
+					$.ajax({
+							url: hosturl +'requestcancel', // point to server-side PHP script 
+							dataType: 'text',  // what to expect back from the PHP script, if anything
+							cache: false,
+							contentType: false,
+							processData: false,
+							data: form_data,                         
+							type: 'post',
+							success: function(data){
+								alert('saving...');
+							}	
+					 });
+
+				}else{
+					alert('Please select status..');
+				}		
+			}
+		
+		});		
+	
+	
+
+		
+			function rateme(id,val){															
+
+				var form_data = new FormData();	
+					form_data.append('id', id);	
+					form_data.append('rating', val);	
+					
+					$.ajax({
+							url: hosturl +'rate', // point to server-side PHP script 
+							dataType: 'text',  // what to expect back from the PHP script, if anything
+							cache: false,
+							contentType: false,
+							processData: false,
+							data: form_data,                         
+							type: 'post',
+							success: function(data){
+							
+								
+															
+							}	
+					 });
+					
+					reloadme();
+				
+			}
+			
+			function reloadme(){
+				setTimeout(function(){											
+					window.location.href="./requestbusiness.html?key="+key+"&id="+uid;
+				}, 0);		
+			}
+	
+		
+				 
+  </script>
+ 
+</body>
+
+</html>

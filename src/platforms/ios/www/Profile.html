@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Profile Contractor</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        
+</head>
+<body >
+    <br>
+   
+
+                <div class="container">
+        <img class="logonow" src="./img/Teampeak logo.png" alt="tempeakicon" width="300">
+      
+       <div class="container">
+        <div class="card border-warning">
+                        <div class="text-light card-header">Contractor</div>
+                        <div class="card-body">
+                          <h4 class="text-warning card-title"></h4>
+                         
+        <div style="margin-top:50px" class="d-flex justify-content-center align-items-center">
+                        <img src="" alt="user" class="shadow-lg p-1 mb-4 bg-dark profpic" width="100" height="100">
+                
+                <div>
+							<label style="margin-left:20px" class="btn btn-sm btn-outline-warning" id="OpenImgUpload">
+                                Choose Photo <input type="file" hidden id="imgupload">
+                            </label>
+							<div>
+							<button style="margin-left:20px" class='updateimage btn btn-sm btn-warning ' >Update</button>
+							</div>
+                </div>
+        </div>
+                        </div>
+                      </div>
+                </div>
+                </div>
+
+                <br>
+
+          <div class="container">
+            <div class="container d-flex justify-content-left">
+           
+                <a href="" onclick="profileview()" class="btn btn-outline-warning">Profile Details</a>
+                <a href="" id="requestc"  style="margin-left:20px"  class="btn btn-outline-warning">Requests</a>
+                       
+            </div>
+         <div style="margin-top:15px">
+            <a href="./index.html" style="margin-left:15px" id="logout"  class="btn btn-outline-warning"><i style="margin-right:5px" class="align-middle material-icons">
+                        remove_circle_outline
+                        </i>Log-Out</a>  
+                </div> 
+          
+            <br>
+            <br>
+            
+            <div class="container">
+                    <p>Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+                    <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+            </div>
+       
+            </div>
+    </div>
+</div>
+               
+
+   </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/logout.js"></script>
+	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+	 <script type="text/javascript" src="js/validation-script.js"></script>
+	<script type="text/javascript"  src="js/registration.js"></script>
+	 <script type="text/javascript" src="js/capitalized.js"></script>
+	 <script type="text/javascript" src="js/cls.js"></script>
+	<script>
+		
+		var link = window.location.href; 
+		var url = new URL(link);
+		var keyr = url.searchParams.get("key");
+			
+		if(keyr !== ""){
+			sessionStorage.setItem('key', keyr);
+		}					
+				
+		
+		var key = sessionStorage.getItem('key');
+		
+		
+		if(sessionStorage.getItem('key') === null){
+			window.location.href="./index.html";			
+		}else{
+			var form_data = new FormData();   
+			form_data.append('key',key);
+			
+			
+			$.ajax({
+					url: hosturl +'information', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_data,                         
+					type: 'post',
+					success: function(php_script_response){
+														
+						var t = JSON.parse(php_script_response);	
+						
+						$('h4.card-title').text( capitalize_Words(t[0].first_name) +" "+ capitalize_Words(t[0].last_name));
+						
+						$("img.profpic").attr("src", hosturl+"./uploads/"+ t[0].logo);
+						sessionStorage.setItem("info", php_script_response);
+						
+					}
+				 });					
+		
+		
+		}
+		
+
+		
+	
+	<!-- Link to Profile Information View -->	
+	function profileview(){		
+			var ee = JSON.parse(sessionStorage.getItem("info"));
+		
+			
+		
+			setTimeout(function(){											
+				window.location.href="./profilecontractor.html?key="+key+"&ids="+ee[0].user_id;
+			}, 0);		
+		}
+		
+	<!-- ends here profile information -->	
+		
+	<!-- Link for Request View -->
+		$('#requestc').click(function(e){			
+			setTimeout(function(){											
+				window.location.href="./request.html?key="+key;
+				
+			}, 0);
+			e.preventDefault();
+		});
+
+	<!-- end here request view -->
+	
+		
+		
+		$('.updateimage').click(function(e){
+
+			
+		
+			var info =  JSON.parse(sessionStorage.getItem("info"));
+			var userid = info[0].user_id;
+			var imgpicture = $('#imgupload').prop('files')[0];
+			
+			var form_data = new FormData();   
+			form_data.append('id', info[0].user_id);
+			form_data.append('imgpicture', imgpicture);
+	
+			
+			if(imgpicture !== ""){
+				$.ajax({
+					url: hosturl +'photoimage', // point to server-side PHP script 
+					dataType: 'text',  // what to expect back from the PHP script, if anything
+					cache: false,
+					contentType: false,
+					processData: false,
+					data: form_data,                         
+					type: 'post',
+					success: function(data){					
+						sessionStorage.setItem("info", data);
+						setTimeout(function(){											
+							window.location.href="./Profile.html?key="+key;
+						}, 0);		
+					}
+				 });			
+			 
+			 e.preventDefault();	
+			 
+			}
+		
+			
+			
+		});
+		
+		
+	</script>
+
+   
+</body>
+
+</html>

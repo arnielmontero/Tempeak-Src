@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+</head>
+
+<body>
+        
+
+        <nav style="padding: 10px 10px 10px 10px" class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a  class="navbar-brand" href="#">  </a>  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="text-align:center collapse navbar-collapse" id="navbarColor02">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./Search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>    
+
+      <div class="container-fluid">
+      <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">Sign In</h5>
+                <form class="form-signin">
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <label for="inputEmail">Email address</label>
+                  </div>
+    
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword">Password</label>
+                  </div>
+    
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Remember password</label>
+                  </div>
+				  <div class="msg text-warning" ></div> <br />
+                  <button class="btn btn-lg btn-warning btn-block text-uppercase" id='login' type="submit">Sign in</button>
+                  <hr class="my-4">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+    <p>Do you have an account? <a href="./Registration.html">Register Here!</a></p>
+    <p>Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+    <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+
+  
+     </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+	   <script type="text/javascript" src="js/validation-script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#login').click(function(e){
+				
+	
+				
+				var email = $('#inputEmail').val();
+				var	password = $('#inputPassword').val();
+					
+				if(email !== "" && password !== ""){
+			
+					var form_data = new FormData();   
+					form_data.append('email', email);
+					form_data.append('password', password);
+						
+						
+						$.ajax({
+						
+							url: hosturl +'islogin',
+							dataType: 'text',
+							cache: false,
+							contentType: false,
+							processData: false, 
+							data: form_data,  
+							type: 'post',
+							success: function(data){
+	
+									var js = JSON.parse(data);
+									var role = js[0].role;																
+
+											switch(role){
+												case '0':
+													var k = js[0].remember_token;		
+													setTimeout(function(){											
+														window.location.href="./Profile2.html?key="+k;
+													}, 0);	
+												break;
+												
+												case '1':
+													var k = js[0].remember_token;		
+													setTimeout(function(){											
+														window.location.href="./Profile.html?key="+k;
+													}, 0);	
+													
+												break;
+												case '2':
+
+													$('div.msg').text("Invalid email and password.. Try again..");
+												break;
+											}
+			
+							},error: function(){
+							
+								 e.preventDefault();	
+							}
+						});
+				
+						 			
+					 e.preventDefault();	
+				}			
+				
+				
+				
+			});
+
+		});
+		<!-- function go(){ -->
+			<!-- if(sessionStorage.getItem("key") !== ""){ -->
+				<!-- return window.location.href="./index.html");	 -->
+			<!-- } -->
+		
+		
+		<!-- } -->
+		
+	</script>
+</body>
+
+</html>

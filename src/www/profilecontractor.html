@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+
+          <br>
+          <div class="container d-flex align-items-center">
+              <i style="margin-left:20px" class="material-icons">
+                      arrow_back_ios
+                      </i><a class="text-warning" href="" onclick="backtodash()">Return to Dashboard</a>   
+              </div>
+  
+    <div class="container">
+        <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
+        <br>
+
+        <div class="container">
+        <div class="card">
+                <h5 class="card-header name"><strong></strong></h5>
+                <div class="card-body">
+                    <h5 class="text-warning">Profile Details</h5>
+                  <div class="row">
+                        <div class="col-4">Date of birth:</div>
+                        <div class="col-8 dob"></div>
+                        <div class="col-4">Rating:</div>
+                        <div class="col-8 rateme">
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span class="fa fa-star"></span> -->
+                                <!-- <span class="fa fa-star"></span>                    -->
+                        </div>
+                        <div class="col-4">City:</div>
+                        <div class="col-8 city"></div>
+                        <div class="col-4">Address:</div>
+                        <div class="col-8 address"></div>
+                        <div class="col-4 ">State:</div>
+                        <div class="col-8 state"></div>
+                        <div class="col-4">Zip Code:</div>
+                        <div class="col-8 zipcode"></div>
+                        <div class="col-4">Phone:</div>
+                        <div class="col-8 phone"></div>
+                        <div class="col-4">Email:</div>
+                        <div class="col-8 email"></div>
+                     </div> 
+                    
+                </div>
+              </div>
+              </div>
+			  
+		  <div class="container">
+				<div class="card">
+						<div class="card-body">
+							<h5 class="text-warning">Time Available  </h5>
+					
+								<div class="row">
+								   <div class="col">
+										Week Days:
+										<div>Monday</div>
+										<div>Tuesday</div>
+										<div>Wednesday</div>
+										<div>Thursday</div>
+										<div>Friday</div>
+										<div>Saturday</div>
+										<div>Sunday</div>
+									</div>
+									<div class="col times" >
+										<!-- Time: -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+									</div>
+
+									<div class="col">
+										<br />
+										
+									</div>
+							  </div>
+							  	<br />
+							
+							  <div class='row'>
+<div class="col">							  
+								<button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#editschedule">Edit Time Available</button>
+				</div>			  
+								<div class="modal fade" id="editschedule" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
+											<div class="modal-dialog modal-dialog-centered" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="time1">Updating Time Available</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														<div class="container">
+														
+															<table>
+																<tr>
+																	<th>Days</th>
+																	<th>From:</th>
+																	<th>To:</th>
+																</tr>
+																<tr>
+																	<td>Monday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="mon_input_starttime" >
+																	</td>
+																	<td>
+																		<input type="time" id="mon_input_endtime">
+																	</td>
+																</tr>
+																
+																<tr>
+																	<td>Tuesday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="tue_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="tue_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Wednesday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="wed_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="wed_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Thursday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="thr_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="thr_input_endtime">
+																	</td>
+																</tr>
+																
+																<tr>
+																	<td>Friday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="fri_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="fri_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Saturday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="sat_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="sat_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Sunday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="sun_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="sun_input_endtime">
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+													<div class="modal-footer">
+													<button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn-sm btn-warning"  onclick="updateTimeSchedules()">Save changes</button>
+													</div>
+												</div>
+											</div>
+										</div>
+							  
+							  </div>
+		
+	
+	
+	</div>
+</div>			  
+			  
+			  
+<br>
+<div style="padding-bottom:15px"class="container">
+<form>
+  <div class="d-flex justify-content-left">
+
+      <button type="button" data-toggle="modal" data-target="#modalc" class="btn btn-warning btn-sm">Change Password</button>
+
+      <div class="modal fade" id="modalc" tabindex="-1" role="dialog" aria-labelledby="title1" aria-hidden="true">
+          
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+          
+		   <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="title1">Change Password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+			 
+              <div class="modal-body">
+                  
+                      <!-- <div class="form-group"> -->
+                        <!-- <input type="password" class="form-control" id="currentPassword" aria-describedby="emailHelp" placeholder="Current Password" required> -->
+                        <!-- <small id="emailHelp" class="form-text text-muted">Never share your password with anyone else.</small> -->
+                      <!-- </div> -->
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="New Password" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" id="c_password" placeholder="Confirm Password">
+                        </div>   
+                     <div class="form-group result">
+						 <small id="respond" class="form-text"></small>
+					 </div>
+              </div>
+              <div class="modal-footer">
+                 <button type="submit" class="btn btn-warning btn-sm savechanges">Save changes</button>
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+              </div>			  
+            </div>		
+          </div>
+        </div>
+
+      <a href="" style="margin-left:15px" type="button" class="btn btn-warning btn-sm" onclick ="editprofile()">Edit Profile</a>
+  </div>
+  </form>
+</div>
+              <div class="container">
+                    <div class="card">
+                            <div class="card-body">
+                                <h5 class="text-warning">Work Experience</h5>
+                              <div class="row">
+                                    <div class="col-4">School:</div>
+                                    <div class="col-8 school"></div>
+                                   
+                                    <div class="col-4">Graduation:</div>
+                                    <div class="col-8 graduation"></div>
+                                    <div class="col-4">Experience:</div>
+                                    <div class="col-8 experience"></div>
+                                    <div class="col-4">License #:</div>
+                                    <div class="col-8 licensenum"></div>
+                                    <!-- <div class="col-4">Working days:</div> -->
+                                    <!-- <div class="col-8">Fri:04:30pm-04:30am</div> -->
+                                    <div class="col-4">Distance:</div>
+                                    <div class="col-8 distance"></div>
+                                    <div class="col-4">Salary:</div>
+                                    <div class="col-8 salary">0</div>
+                                 </div> 
+ 
+                            </div>
+                          </div>
+                          <br>
+						<form>
+                          <div class="form-group">
+                            <div class="input-group mb-3">
+                              <div class="custom-file">
+							  
+									<span class="btn btn-sm btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter2" >View License Cert.</span>
+								
+								<!-- <label>License </label> -->
+								<!-- <input type='file' class="form-control" id="licenseimg" required > -->
+								
+								<label style="margin:0 0 0 20px" class="btn btn-sm btn-outline-warning" id="OpenImgUpload">
+									Choose File<input type="file" hidden id="licenseimg" required>
+								</label>
+							
+								
+                                <!-- <input type="file" class="custom-file-input" id="licenseimg" required > -->
+                                <!-- <label class="custom-file-label" for="inputGroupFile02">License</label> -->
+								<button  type="submit" style="margin-left:20px" class="btn btn-warning btn-sm updatelicense">Update</button>
+                              </div>
+                           
+                            </div>
+                          </div>
+					 <!-- <button  type="submit" class="btn btn-warning updatelicense">Save</button> -->
+				  </form>
+						  
+                          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle2">License</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+									<center>
+									<img src="" class="license" width="300" height="300" >
+									</center>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <a href="#" type="button" class="btn btn-warning updatelicense">Save</a> -->                       
+                          <br>
+                         
+          <div>
+                                        
+              <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+              <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+                                    
+                                        </div>
+                
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+
+	<script type="text/javascript" src="js/capitalized.js"></script>
+	<script>
+	
+		var link = window.location.href; 
+		var url = new URL(link);
+		var keyr = url.searchParams.get("key");
+		var ids = url.searchParams.get("ids");
+			
+		if(keyr !== ""){
+			sessionStorage.setItem('key', keyr);
+		}					
+	
+		var key = sessionStorage.getItem("key");
+
+		
+		function updateTimeSchedules(){
+				var monday		="", 
+					tuesday 	="",
+					wednesday	="",
+					thursday  	="",
+					friday  	="",
+					saturday  	="",
+					sunday  	="";
+		
+
+			if($('#mon_input_starttime').val() !== "" && $('#mon_input_endtime').val() !=="" ){
+				 monday = '"monday":{"from":"'+$('#mon_input_starttime').val()+'","to":"'+ $('#mon_input_endtime').val()+'"}';
+			}
+			if($('#tue_input_starttime').val() !== "" && $('#tue_input_endtime').val() !=="" ){
+				 tuesday = '"tuesday":{"from":"'+$('#tue_input_starttime').val()+'","to":"'+ $('#tue_input_endtime').val()+'"}';
+
+			}
+			if($('#wed_input_starttime').val() !== "" && $('#wed_input_endtime').val() !=="" ){
+				 wednesday = '"wednesday":{"from":"'+$('#wed_input_starttime').val()+'","to":"'+ $('#wed_input_endtime').val()+'"}';
+
+			}
+			if($('#thr_input_starttime').val() !== "" && $('#thr_input_endtime').val() !=="" ){
+				 thursday = '"thursday":{"from":"'+$('#thr_input_starttime').val()+'","to":"'+ $('#thr_input_endtime').val()+'"}';
+			}
+			if($('#fri_input_starttime').val() !== "" && $('#fri_input_endtime').val() !=="" ){
+				 friday = '"friday":{"from":"'+$('#fri_input_starttime').val()+'","to":"'+ $('#fri_input_endtime').val()+'"}';
+			}
+			if($('#sat_input_starttime').val() !== "" && $('#sat_input_endtime').val() !=="" ){
+				 saturday = '"saturday":{"from":"'+$('#sat_input_starttime').val()+'","to":"'+ $('#sat_input_endtime').val()+'"}';
+			}
+			if($('#sun_input_starttime').val() !== "" && $('#sun_input_endtime').val() !=="" ){
+				 sunday = '"sunday":{"from":"'+$('#sun_input_starttime').val()+'","to":"'+ $('#sun_input_endtime').val()+'"}';
+			}		
+
+		
+			var form_data_time_mon = new FormData();  
+			form_data_time_mon.append('key',key);
+			form_data_time_mon.append('monday',monday);
+			form_data_time_mon.append('tuesday',tuesday);
+			form_data_time_mon.append('wednesday',wednesday);
+			form_data_time_mon.append('thursday',thursday);
+			form_data_time_mon.append('friday',friday);
+			form_data_time_mon.append('saturday',saturday);
+			form_data_time_mon.append('sunday',sunday);
+	
+
+			$.ajax({
+				url: hosturl +'updatelistschedule', // point to server-side PHP script 
+				dataType: 'text',  // what to expect back from the PHP script, if anything
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data_time_mon,                         
+				type: 'post',
+				success: function(php_script_response){	
+						setTimeout(function(){											
+							window.location.href="./profilecontractor.html?key="+key;
+					}, 0);				
+				}
+			});		
+		}
+
+		
+		function backtodash(){
+			setTimeout(function(){											
+						window.location.href="./Profile.html?key="+key;
+				}, 0);	
+			
+		}
+		
+		function editprofile(){
+			setTimeout(function(){											
+						window.location.href="./eRegistration.html?key="+key;
+				}, 0);				
+		}
+		
+		var form_data_time = new FormData();  
+		
+		form_data_time.append('key',key);
+		
+		$.ajax({
+			url: hosturl +'listschedule', // point to server-side PHP script 
+			dataType: 'text',  // what to expect back from the PHP script, if anything
+			cache: false,
+			contentType: false,
+			processData: false,
+			data: form_data_time,                         
+			type: 'post',
+			success: function(php_script_response){									
+				datastimes(php_script_response);					
+			}
+		 });		
+		
+		function datastimes(r){			
+			$('.times').append(r);			
+		}
+		
+		
+		
+		
+		
+		var form_data = new FormData();   
+		form_data.append('key',key);
+		
+		$.ajax({
+				url: hosturl +'information', // point to server-side PHP script 
+				dataType: 'text',  // what to expect back from the PHP script, if anything
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data,                         
+				type: 'post',
+				success: function(php_script_response){									
+					datas(php_script_response);					
+				}
+			 });		
+	
+
+		function datas(x){			
+			var info =  JSON.parse(x);		
+			if(x === null){
+				window.location.href="./index.html";			
+			}else{
+		
+				<!-- console.log(info[0]); -->
+				$('h5.name strong').text(capitalize_Words(info[0].first_name) +" "+ capitalize_Words(info[0].last_name));
+				$('div.dob').text(info[0].birthday);
+				$('div.city').text(info[0].city);
+				$('div.address').text(info[0].address);
+				$('div.state').text(info[0].state);
+				$('div.zipcode').text(info[0].zip_code);
+				$('div.phone').text(info[0].phone);
+				$('div.email').text(info[0].email);
+				$('div.school').text(info[0].school);
+				$('div.graduation').text(info[0].graduation);
+				$('div.experience').text(info[0].experience +" years");
+				$('div.licensenum').text(info[0].license_number);
+				$('div.distance').text(info[0].distance +" miles");
+				$('div.salary').text("$ "+ info[0].salary );
+				$('img.license').attr("src", hosturl+"./uploads/"+ info[0].license);
+
+			}
+			
+		}
+		
+		var form_data_rate = new FormData();   
+		form_data_rate.append('key',key);
+		
+		
+			$.ajax({
+				url: hosturl +'information_rate', // point to server-side PHP script 
+				dataType: 'text',  // what to expect back from the PHP script, if anything
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data_rate,                         
+				type: 'post',
+				success: function(rate){									
+					rateme(rate);			
+				}
+			 });	
+		
+		function rateme(b){
+
+		
+		
+			switch (parseInt(b)){
+				
+				case 5:
+						var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>';
+						
+					
+				break;
+				
+				case 4:
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>';
+	
+				
+				break;
+				
+				case 3:
+				
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+			
+					
+				break;
+				
+				case 2:
+				
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+
+				
+				
+				break;
+				
+				case 1:
+						var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+				
+					
+				break;
+				
+				default:
+						var x = '<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+				
+					
+			}
+			$('.rateme').append(x);
+		
+		}
+	
+		        
+		
+		$(document).ready(function(){
+		
+			$('.savechanges').click(function(e){
+				var password = $("#password").val(),
+					cpassword = $("#c_password").val(),
+					id = info[0].user_id;
+
+					
+					
+				if(password !== "" && cpassword	!== "" && password === cpassword){					
+					e.preventDefault();	
+					
+					var form_data = new FormData();  				
+					form_data.append("id", id);
+					form_data.append("currpassword", password);
+					form_data.append("newPassword", password);
+					
+					$("#respond").css('color','#fff');
+					$("#respond").css('padding-left','2px');
+					
+					
+					$.ajax({
+							url: hosturl +'changepassword', // point to server-side PHP script 
+							dataType: 'text',  // what to expect back from the PHP script, if anything
+							cache: false,
+							contentType: false,
+							processData: false,
+							data: form_data,                         
+							type: 'post',
+							success: function(php_script_response){
+								<!-- sessionStorage.setItem("id", php_script_response);	 -->
+								if(php_script_response == "true"){
+									$("#respond").text('Successful');
+									$("#respond").addClass('alert-success');
+									
+								}else{								
+									$("#respond").text('Failed to change');
+									$("#respond").addClass('alert-danger');
+									
+								}
+								
+							}
+						 });						
+					
+				}
+				
+			
+			});
+			
+			$(".updatelicense").click(function(e){
+				<!-- e.preventDefault();	 -->
+			
+				if( $('#licenseimg').prop('files')[0] !== ""){
+				
+				
+					var license = $('#licenseimg').prop('files')[0];
+					
+					var form_license = new FormData();  					
+					form_license.append("license", license);
+					form_license.append("id", ids);
+					
+					form_license.append("key", key);
+					
+					$.ajax({
+						url: hosturl +'licenseupdate', // point to server-side PHP script 
+						dataType: 'text',  // what to expect back from the PHP script, if anything
+						cache: false,
+						contentType: false,
+						processData: false,
+						data: form_license,                         
+						type: 'post',
+						success: function(php_script_response){
+							sessionStorage.setItem("info", php_script_response);	
+
+							setTimeout(function(){											
+									window.location.href="./profilecontractor.html?key="+key;
+							}, 0);							
+						}
+					 });	
+					
+				e.preventDefault();
+					 
+				}
+				
+			});
+			
+			
+			
+			
+			
+		});
+		
+		
+		
+		
+	</script>
+   
+</body>
+
+</html>

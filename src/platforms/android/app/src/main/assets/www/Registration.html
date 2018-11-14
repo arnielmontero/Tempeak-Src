@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Choose Plan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+
+    <!--
+        <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
+        <link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
+    -->
+    <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="checkKey()">
+    <nav style="padding: 10px 10px 10px 10px" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="text-align:center collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Search.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form>
+        <div class="container">
+            <h1 style="margin-top: 30px" class="form-group col-md-4 text-warning">Registration </h1>
+
+            <div style="margin-top: 30px" class="form-group col-md-4">
+                <select id="role" name="role" class="form-control" required>
+                <small class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+                      <option value='0'>Business Owner</option>
+                      <option value='1'>Contractor</option>
+                    </select>
+            </div>
+            <div class="form-group col-md-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="c_password" placeholder="Confirm Password" required >
+
+                </div>
+                <div class="form-group clinicalstaff">
+
+                </div>
+				
+				 <div class="form-group speciality">
+
+				                  
+                </div>
+				
+				
+                 <!--<div class="form-group">
+                    <input type="text" class="form-control date-widget" id='birthday' placeholder="Date of Birth" required>
+                </div>-->
+            </div>
+
+            <div class="bootstrap-iso">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                            <!-- Form code begins    -->
+                            <div class="row">
+                                <div class="d-flex align-items-center col-4">
+                                    <span class="d-flex align-items-center">Date of birth</span>
+                                </div>
+                                <div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Date of birth" />
+                                </div>
+                            </div>
+                            <br>
+                        
+                            <!-- Form code ends -->
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1" required>
+                                <label class="custom-control-label" for="customCheck1">I have read and accept terms of use</label>
+                            </div>
+                            <br />
+
+                            <!--   <a href="./Registration2.html" class="btn btn-warning btn-prima btn-block" id="next" role="button">Next</a>-->
+
+                            <button type='submit' class="btn btn-warning btn-prima btn-block" id="register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <br>
+    <div class="container">
+            <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+            <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	
+    <!-- additional links  -->
+    <script type="text/javascript" src="js/jquery.ui.js"></script>
+    <script type="text/javascript" src="js/jquery.moment.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/validation-script.js"></script>
+	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>
+	<script type="text/javascript" src="js/clinicalstaff.js"></script>
+	
+	<script>
+			var link = window.location.href; 
+			var url = new URL(link);
+			var keyr = url.searchParams.get("key");																			
+		if(keyr !== ""){
+			sessionStorage.setItem('key', keyr);
+
+		}					
+	</script>
+	<script type="text/javascript" src="js/registration.js"></script>
+	  
+	<!--  end here-->
+	
+
+</body>
+
+</html>

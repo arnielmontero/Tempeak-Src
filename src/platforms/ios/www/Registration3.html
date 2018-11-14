@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+</head>
+
+<body>
+        
+    <nav style="padding: 10px 10px 10px 10px" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a  class="navbar-brand" href="#">  </a>  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="text-align:center collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Search.html">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>    
+          <div class="container">
+            <div class="container">
+          <h2 style="margin-top: 30px" class="text-warning">Registration Requirement</h2>
+          <span>Please fill-out the additional information.</span>
+        </div>
+          </div>
+
+<div class="container">
+<form>
+          <div style="margin-top: 30px" class="form-group col-md-4">
+            <select id="experience" class="form-control" required >
+			<small id="emailHelp" class="form-text text-muted">Choose from "Contractor or Business Owner</small>
+               <option value="">Years of Experience</option>
+               <option value="1-2">1-2 years</option>
+               <option value="2-5">2-5 years</option>
+               <option value="5-10">5-10 years</option>
+               <option value="10-more">Over 10 years</option>
+             </select>
+          </div>
+
+          <div class="form-group col-md-4">
+           <div class="form-group">
+            <div class="form-group">
+              <input type="text" class="form-control" id="school" placeholder="What school you attend" required >
+            </div>
+
+               
+                   <!-- Form code begins -->
+                   <div class="row">
+                      <div class="d-flex align-items-center col-4">
+                      <span class="d-flex align-items-center">Year of Graduation</span>
+                      </div>
+                      <div class="col-8"><input class="d-flex align-items-center form-control" id="graduation" name="date" type="date" required />
+
+                      </div>
+                    </div>
+                    </div>
+
+                <div class="form-group">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="license_number" placeholder="License Number" required >
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="distance" placeholder="No. of miles to commute" required >
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="salary" placeholder="Hourly salary" required >
+                            </div>
+
+                           
+                                <div class="form-row">
+                                  <div class="col">
+                                    <small>Available to work</small>
+									 <input type="text" class="form-control" readonly value ='Monday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                                      <small>From</small>
+                                    <input type="time" id='Mondayfrom'  class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                                      <small>To</small>
+                                      <input type="time"  id='Mondayto'  class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                                  
+									 <input type="text" class="form-control" readonly value ='Tuesday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+               
+                                    <input type="time" id='Tuesdayfrom'  class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                                
+                                      <input type="time"  id='Tuesdayto'  class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                            
+
+									 <input type="text" class="form-control" readonly value ='Wednesday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                                 
+                                    <input type="time" id='Wednesdayfrom'  class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                             
+                                      <input type="time" id='Wednesdayto' class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                      
+									 <input type="text" class="form-control" readonly value ='Thursday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                               
+                                    <input type="time" id='Thursdayfrom'   class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                              
+                                      <input type="time" id='Thursdayto' class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                        
+									 <input type="text" class="form-control" readonly value ='Friday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                        
+                                    <input type="time" id='Fridayfrom' class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                                    
+                                      <input type="time" id='Fridayto'  class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                 
+									 <input type="text" class="form-control" readonly value ='Saturday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                               
+                                    <input type="time"  id='Saturdayfrom' class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                                   
+                                      <input type="time" id='Saturdayto' class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+								<br />
+								<div class="form-row">
+                                  <div class="col">
+                  
+									 <input type="text" class="form-control" readonly value ='Sunday' style='background:#272B30;color:#fff;border:none;'>
+								
+                                  </div>
+                                  <div class="col">
+                             
+                                    <input type="time"  id='Sundayfrom'  class="form-control" placeholder="From">
+                                  </div>
+                                  <div class="col">
+                                  
+                                      <input type="time" id='Sundayto'  class="form-control" placeholder="to">
+                                    </div>
+                                </div>
+							
+                            
+<br>
+					<button type='submit' class="btn btn-warning btn-prima btn-block" id="Register">Register</button>
+<!-- <a href="./Registration2.html" class="btn btn-warning btn-prima btn-block" role="button">Register</a> -->
+</form>
+                           <br>
+                           <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+                           <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+                    
+        
+
+
+
+
+          <script type="text/javascript" src="cordova.js"></script>
+          <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+          <script type="text/javascript" src="js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="js/index.js"></script>
+		  	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+		   <script type="text/javascript" src="js/validation-script.js"></script>
+		   <script>
+		   $(document).ready(function (){
+		   
+				window.history.pushState(null, "", window.location.href);        
+				window.onpopstate = function() {
+					window.history.pushState(null, "", window.location.href);
+				};
+				
+					var link = window.location.href; 
+					var url = new URL(link);
+					var keyr = url.searchParams.get("key");
+					var idr = url.searchParams.get("id");
+															
+				if(keyr !== "" && idr !== ""){
+					sessionStorage.setItem('key', keyr);
+					sessionStorage.setItem('id', idr);
+				}					
+				var key = sessionStorage.getItem('key');	
+				var id = sessionStorage.getItem('id');	
+					
+					
+				
+				$("#Register").click(function (e){
+					var monday		="", 
+						tuesday 	="",
+						wednesday	="",
+						thursday  	="",
+						friday  	="",
+						saturday  	="",
+						sunday  	="";
+						
+						
+					var experience = $('#experience').val(),
+						school = $('#school').val() ,
+						graduation = $('#graduation').val(),
+						license_number = $('#license_number').val(),
+						distance = $('#distance').val(),
+						salary = $('#salary').val();	
+
+				
+					if($('#Mondayfrom').val() !== "" && $('#Mondayto').val() !=="" ){
+						 monday = '"monday":{"from":"'+$('#Mondayfrom').val()+'","to":"'+ $('#Mondayto').val()+'"}';
+					}
+					if($('#Tuesdayfrom').val() !== "" && $('#Tuesdayto').val() !=="" ){
+						 tuesday = '"tuesday":{"from":"'+$('#Tuesdayfrom').val()+'","to":"'+ $('#Tuesdayto').val()+'"}';
+
+					}
+					if($('#Wednesdayfrom').val() !== "" && $('#Wednesdayto').val() !=="" ){
+						 wednesday = '"wednesday":{"from":"'+$('#Wednesdayfrom').val()+'","to":"'+ $('#Wednesdayto').val()+'"}';
+
+					}
+					if($('#Thursdayfrom').val() !== "" && $('#Thursdayto').val() !=="" ){
+						 thursday = '"thursday":{"from":"'+$('#Thursdayfrom').val()+'","to":"'+ $('#Thursdayto').val()+'"}';
+					}
+					if($('#Fridayfrom').val() !== "" && $('#Fridayto').val() !=="" ){
+						 friday = '"friday":{"from":"'+$('#Fridayfrom').val()+'","to":"'+ $('#Fridayto').val()+'"}';
+					}
+					if($('#Saturdayfrom').val() !== "" && $('#Saturdayto').val() !=="" ){
+						 saturday = '"saturday":{"from":"'+$('#Saturdayfrom').val()+'","to":"'+ $('#Saturdayto').val()+'"}';
+					}
+					if($('#Sundayfrom').val() !== "" && $('#Sundayto').val() !=="" ){
+						 sunday = '"sunday":{"from":"'+$('#Sundayfrom').val()+'","to":"'+ $('#Sundayto').val()+'"}';
+					}		
+					
+	
+					var form_data = new FormData();   
+					
+						form_data.append('experience',experience);
+						form_data.append('school',school);
+						form_data.append('graduation',graduation);
+						form_data.append('license_number',license_number);
+						form_data.append('distance',distance);
+						form_data.append('salary',salary);
+						form_data.append('monday',monday);
+						form_data.append('tuesday',tuesday);
+						form_data.append('wednesday',wednesday);
+						form_data.append('thursday',thursday);
+						form_data.append('friday',friday);
+						form_data.append('saturday',saturday);
+						form_data.append('sunday',sunday);
+						form_data.append('id',id);
+						form_data.append('key',key);
+						
+					<!-- var form_data = "inputState" = inputState; -->
+							
+				
+					if(sessionStorage.getItem("id") !== ""){
+								<!-- alert('test'); -->
+					
+						$.ajax({
+								url: hosturl +'reg_contractor_three', // point to server-side PHP script 
+								dataType: 'text',  // what to expect back from the PHP script, if anything
+								cache: false,
+								contentType: false,
+								processData: false,
+								data: form_data,                         
+								type: 'post',
+								success: function(data){
+
+									if(data){
+										setTimeout(function(){											
+											window.location.href="./Profile.html?key="+key;
+										}, 0);	
+									
+									}else{
+										alert('Something went wrong.. Please review entry.');
+									}
+								}
+							 });			 
+							e.preventDefault();							
+					};											
+				});							   
+		   });
+		   
+		   </script>
+      </body>
+      
+      </html>

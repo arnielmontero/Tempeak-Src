@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Profile Contractor</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        
+</head>
+<body >
+    <br>
+   
+
+                <div class="container">
+        <img class="logonow" src="./img/Teampeak logo.png" alt="tempeakicon" width="300">
+      
+       <div class="container">
+        <div class="card border-warning">
+                        <div class="text-light card-header">Contractor</div>
+                        <div class="card-body">
+                          <h4 class="text-warning card-title"></h4>
+                         
+						<div class="d-flex justify-content-left align-items-left container">
+								<div class='row'>	
+									<div class="col-4">
+										<img style="margin-top:20px" id="logo" alt="user" class="shadow-lg p-1 mb-4 bg-dark profpic" width="120" height="120">
+									</div>
+									<div class="col-8" style="padding-top:0;" >
+										<div class="card-body" >
+											<h5 class="text-warning">Profile Details</h5>
+											<div class="row align-items-left">
+												<div class="col-6">Date of birth:</div>
+												<div class="col-6 dob justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">												
+												<div class="col-6">City:</div>
+												<div class="col-6 city justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">	
+												<div class="col-6">Address:</div>
+												<div class="col-6 address justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">	
+												<div class="col-6 ">State:</div>
+												<div class="col-6 state justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">		
+												<div class="col-6">Zip Code:</div>
+												<div class="col-6 zipcode justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">		
+												<div class="col-6">Phone:</div>
+												<div class="col-6 phone justify-content-left" style="padding-left:0 !important;"></div>
+											</div>
+											<div class="row">		
+												<div class="col-6">Email:</div>
+												<div class="col-6 email justify-content-left" style="padding-left:0 !important;"></div>
+											</div>                     
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class='container '>
+							<div class='row'>
+									<div class="col-12">
+									  <div class="card">
+										<div class="card-body">
+											<h5 class="text-warning">Work Experience</h5>
+										  <div class="row">
+												<div class="col-4">School:</div>
+												<div class="col-8 school"></div>
+											   
+												<div class="col-4">Graduation:</div>
+												<div class="col-8 graduation"></div>
+												<div class="col-4">Experience:</div>
+												<div class="col-8 experience"></div>
+												<div class="col-4">License #:</div>
+												<div class="col-8 licensenum"></div>												
+												<div class="col-4">Distance:</div>
+												<div class="col-8 distance"></div>
+												<div class="col-4">Salary:</div>
+												<div class="col-8 salary">0</div>
+											 </div> 
+ 
+											</div>
+										</div>	
+									</div>
+								</div>
+						</div>
+
+                        </div>
+                      </div>
+                </div>
+                </div>
+
+                <br>
+
+          <div class="container">
+            <div class="container d-flex justify-content-left ">       
+                <a href="" class="btn btn-outline-warning" onclick="closeme()">Close</a>              
+            </div>
+         <div style="margin-top:15px">
+           
+          
+            <br>
+            <br>
+            
+            <div class="container">
+                    <p>Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+                    <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+            </div>
+       
+            </div>
+    </div>
+</div>
+               
+
+   </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/logout.js"></script>
+	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>
+	 <script type="text/javascript" src="js/validation-script.js"></script>
+	<script type="text/javascript"  src="js/registration.js"></script>
+	 <script type="text/javascript" src="js/capitalized.js"></script>
+	<script>
+		
+		
+		window.history.pushState(null, "", window.location.href);        
+		window.onpopstate = function() {
+		window.history.pushState(null, "", window.location.href);
+		};
+				  
+		var link = window.location.href; 
+		var url = new URL(link);
+		var cs = url.searchParams.get("cs");
+		var st = url.searchParams.get("st");
+		var dt = url.searchParams.get("dt");
+		var tm = url.searchParams.get("tm");
+		var k = url.searchParams.get("k");
+
+		sessionStorage.setItem('cs',cs);
+		var clinicalstaff = sessionStorage.getItem('cs');
+		
+		sessionStorage.setItem('st',st);
+		var state = sessionStorage.getItem('st');
+		
+		sessionStorage.setItem('dt',dt);
+		var date = sessionStorage.getItem('dt');
+		
+		sessionStorage.setItem('tm',tm);
+		var time = sessionStorage.getItem('tm');
+		
+		sessionStorage.setItem('k',k);
+		var key = sessionStorage.getItem('k');
+		
+		var link = window.location.href; 
+		var url = new URL(link);
+		var i = url.searchParams.get("id");
+		
+		
+		
+		sessionStorage.setItem('i',i);
+		var id = sessionStorage.getItem('i');
+		
+		
+		form_data = new FormData();   
+		form_data.append('id', id);
+
+		$.ajax({
+			url: hosturl +'get_info', // point to server-side PHP script 
+			dataType: 'text',  // what to expect back from the PHP script, if anything
+			cache: false,
+			contentType: false,
+			processData: false,
+			data: form_data,                         
+			type: 'post',
+			success: function(php_script_response){								
+				information(php_script_response)
+			}
+		 });			
+		
+		
+		function information(x){	
+			var info = JSON.parse(x);		
+			$('#logo').attr('src', hosturl+'uploads/'+info[0].logo);
+			$('.dob').text(info[0].birthday);
+			$('.city').text(info[0].city);
+			$('.address').text(info[0].address);
+			$('.state').text(info[0].state);
+			$('.zipcode').text(info[0].zip_code);
+			$('.phone').text(info[0].phone);
+			$('.email').text(info[0].email);
+			
+			$('.school').text(info[0].school);
+			$('.graduation').text(info[0].graduation);
+			$('.experience').text(info[0].experience +' years');
+			$('.licensenum').text(info[0].license_number);
+			$('.distance').text(info[0].distance+' miles');
+			$('.salary').text('$'+info[0].salary);
+		}
+		
+		
+		<!-- console.log(info); -->
+		
+		
+		function closeme(){
+		
+				setTimeout(function(e){											 
+					window.location.href="./find2.html?cs="+clinicalstaff+"&st="+state+"&dt="+date+"&tm="+time+"&k="+key+"&id="+id;
+				}, 0);		
+				e.preventDefault();
+				
+				
+		}
+		
+		
+	</script>
+
+   
+</body>
+
+</html>
