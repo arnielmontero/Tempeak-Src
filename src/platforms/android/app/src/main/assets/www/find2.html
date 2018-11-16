@@ -51,8 +51,13 @@
 		var tm = url.searchParams.get("tm");
 		var k = url.searchParams.get("k");
 		var ix = url.searchParams.get("id");
-		
-		sessionStorage.setItem('cs',cs);
+
+		if(cs == 'DDS'){
+		    sessionStorage.setItem('cs', 'DDS,DMD');
+		}else{
+		    sessionStorage.setItem('cs',cs);
+		}
+
 		var clinicalstaff = sessionStorage.getItem('cs');
 		
 		sessionStorage.setItem('st',st);
@@ -84,7 +89,7 @@
    
 	$(document).ready(function(){
 
-		var form_data = new FormData();   
+		var form_data = new FormData();
 			form_data.append('clinicalstaff', clinicalstaff);
 			form_data.append('state',state);
 		
@@ -97,8 +102,9 @@
 					data: form_data,                         
 					type: 'post',
 					success: function(php_script_response){						
+
 						$(".rs").append(php_script_response);
-						
+
 					}
 				 });									
 	});
