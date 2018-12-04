@@ -117,12 +117,12 @@
 
 
 					<div class="form-group">
-						<input type="text" id='zip' class="form-control" placeholder="Zip code" required>
+						<input type="number" id='zip' class="form-control" placeholder="Zip code" required>
 					</div>
 
 
 					<div class="form-group">
-						<input type="text" id='phone' class="form-control" placeholder="Phone" required>
+						<input type="number" id='phone' class="form-control" placeholder="Phone" required>
 					</div>
 
 					<div class="form-group">
@@ -263,70 +263,7 @@
 				
 		
 		
-				
-//state	 get city
- $("#state").change(function(){
 
-        var city = $("#city");
-
-        $.ajax({
-            url: getcityzipurl +'user/getCity/' + this.value,
-            context: document.body,
-            type: "GET",
-            success: function(response){
-
-                city.html("");
-                city.append("<option value=''>City</option>");
-
-                if(response.length > 0) {
-                    $.each(response, function (i, value) {
-                        city.append("<option value='"+value+"'>"+value+"</option>");
-                    });
-                }
-            },
-            error:function(msg){}
-        })
-    });	
-		
-//city get zip code
-$("#city").change(function () {
-
-        if($("#city").val() == '') {
-            $("#zip_code").val('');
-            return;
-        }
-
-        console.log($("#state").val() + ',' + $("#city").val());
-
-        var params = "?address=" + $("#state").val() + ',' + $("#city").val();
-        var key = "&key=AIzaSyAeRs5ly0e10iR1k-PqEtfR7IsyinJ15V0";
-        var uri = "https://maps.googleapis.com/maps/api/geocode/json";
-
-
-        $.ajax({
-            url: uri + params + key,
-            dataType: "json",
-            success: function (data) {
-
-                $("#zip").val('');
-
-                $.each(data.results[0].address_components, function (key, value) {
-                    if(value.types.indexOf("postal_code") > -1) {
-                        $("#zip").val(value.long_name);
-                    }
-                })
-            },
-            after: function (e) {
-                console.log(e);
-            },
-
-            error: function (e) {
-                console.log(e);
-            }
-        });
-    });	   	
-			
-			
 			
 		</script>
 	

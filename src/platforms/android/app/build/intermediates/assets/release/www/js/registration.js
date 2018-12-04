@@ -1,16 +1,23 @@
 $(document).ready(function (){
 
   $("#register").click(function(e) {
-	
+
 	var role = $('#role').val(),
 	password = $('#password').val(),
 	cpassword = $('#c_password').val();
 	
-	 if (cpassword !== password) { 
+	 var check1 = $('#customCheck1').is(":checked");
 
+	 if(check1 === false){
+		 
+	 }else{
+	 
+	 if (cpassword !== password ) { 
+				
 	 } else { 
-	
-	
+
+		
+	 
 		var role = $("#role").val(),
 			firstname = $("#firstname").val(),
 			lastname = $("#lastname").val(),
@@ -74,7 +81,7 @@ $(document).ready(function (){
 					alert('Email is already use.');
 				}else{									
 					sessionStorage.setItem("key", data);					
-					//here you can add switch for business or contractor	
+				
 					setTimeout(function(){											
 						window.location.href="./"+dorole+".html?key="+data;
 					}, 2000);
@@ -87,7 +94,7 @@ $(document).ready(function (){
 		});
 		e.preventDefault();
 		e.stopPropagation();
-	
+	 }
 	}
 	
   });

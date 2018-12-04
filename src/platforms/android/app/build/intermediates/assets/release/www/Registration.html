@@ -63,7 +63,7 @@
                     <input type="text" class="form-control" id="email" placeholder="Email Address" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    <input type="password" class="form-control" id="password" placeholder="Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required >
                 </div>
                 <div class="form-group">
                     <input type="password" class="form-control" id="c_password" placeholder="Confirm Password" required >
@@ -94,14 +94,14 @@
                                 <div class="d-flex align-items-center col-4">
                                     <span class="d-flex align-items-center">Date of birth</span>
                                 </div>
-                                <div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Date of birth" />
+                                <div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Date of birth"  required />
                                 </div>
                             </div>
                             <br>
                         
                             <!-- Form code ends -->
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="customCheck1" required>
+                                <input type="checkbox" class="custom-control-input" id="customCheck1" required >
                                 <label class="custom-control-label" for="customCheck1">I have read and accept terms of use</label>
                             </div>
                             <br />

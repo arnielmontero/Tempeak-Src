@@ -1,10 +1,682 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="653cd762-66e1-4c49-89bd-6e47a9b656ab" name="Default" comment="" />
+    <list default="true" id="cc8c4a75-c0bd-4d1d-aae9-9bd748c48a6c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../config.xml" afterPath="$PROJECT_DIR$/../../config.xml" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/create" afterPath="$PROJECT_DIR$/../../node_modules/.bin/create" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/cordova-android/package.json" afterPath="$PROJECT_DIR$/../../node_modules/cordova-android/package.json" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" afterPath="$PROJECT_DIR$/../../package.json" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/CordovaLib.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build.gradle" afterPath="$PROJECT_DIR$/CordovaLib/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" afterPath="$PROJECT_DIR$/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/generated/source/buildConfig/release/org/apache/cordova/BuildConfig.java" afterPath="$PROJECT_DIR$/CordovaLib/build/generated/source/buildConfig/release/org/apache/cordova/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/attr/R.txt" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/attr/R.txt" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/intermediate-jars/debug/classes.jar" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/aapt/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/CordovaLib/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/CordovaLib/build/outputs/logs/manifest-merger-release-report.txt" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/cordova.gradle" afterPath="$PROJECT_DIR$/CordovaLib/cordova.gradle" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/project.properties" afterPath="$PROJECT_DIR$/CordovaLib/project.properties" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/BuildHelper.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/BuildHelper.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CallbackContext.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CallbackContext.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CallbackMap.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CallbackMap.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/Config.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/Config.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaArgs.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaArgs.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaBridge.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaBridge.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CoreAndroid.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CoreAndroid.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/LOG.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/LOG.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PermissionHelper.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PermissionHelper.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginEntry.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginEntry.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginManager.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginManager.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginResult.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/PluginResult.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ResumeCallback.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/ResumeCallback.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/Whitelist.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/Whitelist.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" />
+      <change beforePath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" afterPath="$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
+      <change beforePath="$PROJECT_DIR$/android.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android.json" afterPath="$PROJECT_DIR$/android.json" />
+      <change beforePath="$PROJECT_DIR$/android/.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/io/tempeakv2/hellocordova/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/io/tempeakv2/hellocordova/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/io/tempeakv2/hellocordova/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/io/tempeakv2/hellocordova/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Businessregistration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Businessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Profile2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Profile2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Registration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Registration2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/Registration2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/android/nativeapiprovider.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/exec.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/platform.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova-js-src/plugin/android/app.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/cordova.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/eBusinessregistration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/eBusinessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/eRegistration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/eRegistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/find2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/find2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/js/registration.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/pricing.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/requestbusiness.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/www/requestbusiness.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/android/nativeapiprovider.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/exec.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/platform.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova-js-src/plugin/android/app.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/cordova.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/find2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/find2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/js/registration.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/pricing.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/requestbusiness.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/requestbusiness.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/release.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/release.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/release.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/release.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/R$xml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/cordova/hellocordova/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/R$xml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/G3bGLZ7fe0YrQ6Cwn7bxFl+igpU=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/G3bGLZ7fe0YrQ6Cwn7bxFl+igpU=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/sOLKdY64yDeIeDhb+09F9kQU2aw=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/zip-cache/KISgcgRs8wk6yIONIVfKVzcjkRo=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/zip-cache/KISgcgRs8wk6yIONIVfKVzcjkRo=" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml_config.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml_config.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_icon.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_icon.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/xml_config.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/xml_config.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/R$xml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/io/cordova/hellocordova/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/org/apache/cordova/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/org/apache/cordova/whitelist/WhitelistPlugin$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/org/apache/cordova/whitelist/WhitelistPlugin$CustomConfigXmlParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/3/org/apache/cordova/whitelist/WhitelistPlugin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/R$xml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/MainActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/R$xml.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/io/cordova/hellocordova/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/org/apache/cordova/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/org/apache/cordova/whitelist/WhitelistPlugin$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/org/apache/cordova/whitelist/WhitelistPlugin$CustomConfigXmlParser.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7/org/apache/cordova/whitelist/WhitelistPlugin.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/release/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/release/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/0.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/1.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/1.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/output.json" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/release/app-release-unsigned.apk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/release/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.xml" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.xml" />
+      <change beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/debug/output.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" afterPath="$PROJECT_DIR$/app/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Registration.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Registration2.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Registration2.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/android/nativeapiprovider.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/exec.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/platform.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova-js-src/plugin/android/app.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/cordova.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/cordova.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/find2.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/find2.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/js/registration.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/pricing.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/requestbusiness.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/requestbusiness.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/icon.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/icon.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/cordova/Api.js" afterPath="$PROJECT_DIR$/cordova/Api.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/android_sdk_version" afterPath="$PROJECT_DIR$/cordova/android_sdk_version" />
+      <change beforePath="$PROJECT_DIR$/cordova/android_sdk_version.bat" afterPath="$PROJECT_DIR$/cordova/android_sdk_version.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/build" afterPath="$PROJECT_DIR$/cordova/build" />
+      <change beforePath="$PROJECT_DIR$/cordova/build.bat" afterPath="$PROJECT_DIR$/cordova/build.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/check_reqs" afterPath="$PROJECT_DIR$/cordova/check_reqs" />
+      <change beforePath="$PROJECT_DIR$/cordova/check_reqs.bat" afterPath="$PROJECT_DIR$/cordova/check_reqs.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/clean" afterPath="$PROJECT_DIR$/cordova/clean" />
+      <change beforePath="$PROJECT_DIR$/cordova/clean.bat" afterPath="$PROJECT_DIR$/cordova/clean.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/defaults.xml" afterPath="$PROJECT_DIR$/cordova/defaults.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/Adb.js" afterPath="$PROJECT_DIR$/cordova/lib/Adb.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidManifest.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidManifest.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidProject.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidProject.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/AndroidStudio.js" afterPath="$PROJECT_DIR$/cordova/lib/AndroidStudio.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/android_sdk.js" afterPath="$PROJECT_DIR$/cordova/lib/android_sdk.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/build.js" afterPath="$PROJECT_DIR$/cordova/lib/build.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/GenericBuilder.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/GenericBuilder.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/GradleBuilder.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/GradleBuilder.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/StudioBuilder.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/StudioBuilder.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/builders/builders.js" afterPath="$PROJECT_DIR$/cordova/lib/builders/builders.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/cordova/lib/check_reqs.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/device.js" afterPath="$PROJECT_DIR$/cordova/lib/device.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/emulator.js" afterPath="$PROJECT_DIR$/cordova/lib/emulator.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/getASPath.bat" afterPath="$PROJECT_DIR$/cordova/lib/getASPath.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/install-device" afterPath="$PROJECT_DIR$/cordova/lib/install-device" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/install-device.bat" afterPath="$PROJECT_DIR$/cordova/lib/install-device.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/install-emulator" afterPath="$PROJECT_DIR$/cordova/lib/install-emulator" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/install-emulator.bat" afterPath="$PROJECT_DIR$/cordova/lib/install-emulator.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/cordova/lib/list-devices" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-devices.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-devices.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/cordova/lib/list-emulator-images" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-emulator-images.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-emulator-images.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/cordova/lib/list-started-emulators" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/list-started-emulators.bat" afterPath="$PROJECT_DIR$/cordova/lib/list-started-emulators.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/log.js" afterPath="$PROJECT_DIR$/cordova/lib/log.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/plugin-build.gradle" afterPath="$PROJECT_DIR$/cordova/lib/plugin-build.gradle" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/pluginHandlers.js" afterPath="$PROJECT_DIR$/cordova/lib/pluginHandlers.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/prepare.js" afterPath="$PROJECT_DIR$/cordova/lib/prepare.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/retry.js" afterPath="$PROJECT_DIR$/cordova/lib/retry.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/run.js" afterPath="$PROJECT_DIR$/cordova/lib/run.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/start-emulator" afterPath="$PROJECT_DIR$/cordova/lib/start-emulator" />
+      <change beforePath="$PROJECT_DIR$/cordova/lib/start-emulator.bat" afterPath="$PROJECT_DIR$/cordova/lib/start-emulator.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/log" afterPath="$PROJECT_DIR$/cordova/log" />
+      <change beforePath="$PROJECT_DIR$/cordova/log.bat" afterPath="$PROJECT_DIR$/cordova/log.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/loggingHelper.js" afterPath="$PROJECT_DIR$/cordova/loggingHelper.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/nopt" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/nopt.cmd" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/nopt.cmd" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/semver" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/semver.cmd" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/semver.cmd" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/shjs" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/shjs" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/.bin/shjs.cmd" afterPath="$PROJECT_DIR$/cordova/node_modules/.bin/shjs.cmd" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/abbrev/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/abbrev/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/abbrev/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/abbrev/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/abbrev/abbrev.js" afterPath="$PROJECT_DIR$/cordova/node_modules/abbrev/abbrev.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/abbrev/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/.jshintignore" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/.jshintignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/.jshintrc" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/.jshintrc" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/android-versions/tests/index.test.js" afterPath="$PROJECT_DIR$/cordova/node_modules/android-versions/tests/index.test.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/.jshintrc" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/.jshintrc" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/History.md" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/History.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/beep/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/beep/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/clear/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/clear/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/cursorPosition.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/cursorPosition.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/progress/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/examples/progress/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/lib/ansi.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/lib/ansi.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/lib/newlines.js" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/lib/newlines.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/ansi/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/ansi/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/balanced-match/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/balanced-match/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/balanced-match/LICENSE.md" afterPath="$PROJECT_DIR$/cordova/node_modules/balanced-match/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/balanced-match/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/balanced-match/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/balanced-match/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/balanced-match/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/balanced-match/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/balanced-match/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/base64js.min.js" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/base64js.min.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/big-data.js" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/big-data.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/convert.js" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/convert.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/url-safe.js" afterPath="$PROJECT_DIR$/cordova/node_modules/base64-js/test/url-safe.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/BigInteger.d.ts" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/BigInteger.d.ts" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/BigInteger.js" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/BigInteger.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/bower.json" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/bower.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/big-integer/tsconfig.json" afterPath="$PROJECT_DIR$/cordova/node_modules/big-integer/tsconfig.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/bplistParser.js" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/bplistParser.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/test/int64.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/test/int64.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/test/parseTest.js" afterPath="$PROJECT_DIR$/cordova/node_modules/bplist-parser/test/parseTest.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/brace-expansion/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/README.markdown" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/README.markdown" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/concat-map/test/map.js" afterPath="$PROJECT_DIR$/cordova/node_modules/concat-map/test/map.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.eslintrc.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.eslintrc.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.ratignore" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.ratignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/RELEASENOTES.md" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/RELEASENOTES.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/appveyor.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/appveyor.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/cordova-common.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/cordova-common.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ActionStack.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ActionStack.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigChanges.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigChanges.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigFile.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigFile.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigKeeper.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/ConfigKeeper.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/munge-util.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigChanges/munge-util.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigParser/ConfigParser.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/ConfigParser/ConfigParser.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaCheck.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaCheck.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaError/CordovaError.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaError/CordovaError.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaError/CordovaExternalToolErrorContext.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaError/CordovaExternalToolErrorContext.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaLogger.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/CordovaLogger.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/FileUpdater.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/FileUpdater.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PlatformJson.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PlatformJson.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginInfo/PluginInfo.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginInfo/PluginInfo.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginInfo/PluginInfoProvider.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginInfo/PluginInfoProvider.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginManager.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/PluginManager.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/events.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/events.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/superspawn.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/superspawn.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/addProperty.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/addProperty.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/plist-helpers.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/plist-helpers.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/xml-helpers.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-common/src/util/xml-helpers.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/tests/test.js" afterPath="$PROJECT_DIR$/cordova/node_modules/cordova-registry-mapper/tests/test.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/CHANGES.md" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/CHANGES.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/LICENSE.txt" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/Makefile" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/NOTICE" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/NOTICE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/constants.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/constants.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/elementpath.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/elementpath.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/elementtree.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/elementtree.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/errors.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/errors.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parser.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parser.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parsers/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parsers/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parsers/sax.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/parsers/sax.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/sprintf.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/sprintf.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/treebuilder.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/treebuilder.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/utils.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/lib/utils.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/data/xml1.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/data/xml1.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/data/xml2.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/data/xml2.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/test-simple.js" afterPath="$PROJECT_DIR$/cordova/node_modules/elementtree/tests/test-simple.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/common.js" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/common.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/glob.js" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/glob.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/glob/sync.js" afterPath="$PROJECT_DIR$/cordova/node_modules/glob/sync.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inflight/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/inflight/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inflight/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/inflight/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inflight/inflight.js" afterPath="$PROJECT_DIR$/cordova/node_modules/inflight/inflight.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inflight/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/inflight/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/inherits/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/inherits/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inherits/inherits.js" afterPath="$PROJECT_DIR$/cordova/node_modules/inherits/inherits.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inherits/inherits_browser.js" afterPath="$PROJECT_DIR$/cordova/node_modules/inherits/inherits_browser.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/inherits/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/minimatch/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/minimatch/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/minimatch/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/minimatch/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/cordova/node_modules/minimatch/minimatch.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/minimatch/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/bin/nopt.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/examples/my-program.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/lib/nopt.js" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/lib/nopt.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/nopt/test/basic.js" afterPath="$PROJECT_DIR$/cordova/node_modules/nopt/test/basic.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/once/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/once/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/once/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/once/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/once/once.js" afterPath="$PROJECT_DIR$/cordova/node_modules/once/once.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/once/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/once/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/license" afterPath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/license" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/readme.md" afterPath="$PROJECT_DIR$/cordova/node_modules/path-is-absolute/readme.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/.jshintrc" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/.jshintrc" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/History.md" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/History.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/Makefile" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist-build.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist-build.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist-parse.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist-parse.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/dist/plist.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/examples/browser/index.html" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/examples/browser/index.html" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/lib/build.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/lib/build.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/lib/parse.js" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/lib/parse.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/plist/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/plist/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/properties-parser/README.markdown" afterPath="$PROJECT_DIR$/cordova/node_modules/properties-parser/README.markdown" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/properties-parser/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/properties-parser/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/properties-parser/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/properties-parser/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/properties-parser/play-ground.js" afterPath="$PROJECT_DIR$/cordova/node_modules/properties-parser/play-ground.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/CHANGES.md" afterPath="$PROJECT_DIR$/cordova/node_modules/q/CHANGES.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/q/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/q/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/q/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/q.js" afterPath="$PROJECT_DIR$/cordova/node_modules/q/q.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/q/queue.js" afterPath="$PROJECT_DIR$/cordova/node_modules/q/queue.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/AUTHORS" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/AUTHORS" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/big-not-pretty.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/big-not-pretty.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/example.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/example.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/get-products.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/get-products.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/hello-world.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/hello-world.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/not-pretty.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/not-pretty.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/pretty-print.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/pretty-print.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/shopping.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/shopping.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/strict.dtd" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/strict.dtd" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/switch-bench.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/switch-bench.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/test.html" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/test.html" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/examples/test.xml" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/examples/test.xml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/lib/sax.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/lib/sax.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/buffer-overrun.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/buffer-overrun.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-chunked.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-chunked.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-end-split.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-end-split.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-fake-end.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-fake-end.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-multiple.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata-multiple.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/cdata.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-23.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-23.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-30.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-30.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-35.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-35.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-47.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-47.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-49.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/issue-49.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/parser-position.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/parser-position.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/script.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/script.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-child-strict.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-child-strict.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-child.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-child.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-tag.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/self-closing-tag.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/stray-ending.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/stray-ending.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/trailing-non-whitespace.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/trailing-non-whitespace.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/unquoted.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/unquoted.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-issue-41.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-issue-41.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-rebinding.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-rebinding.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-strict.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-strict.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-unbound.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-unbound.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-prefix-attribute.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-prefix-attribute.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-prefix.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-prefix.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-redefine.js" afterPath="$PROJECT_DIR$/cordova/node_modules/sax/test/xmlns-xml-default-redefine.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/bin/semver" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/range.bnf" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/range.bnf" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/semver/semver.js" afterPath="$PROJECT_DIR$/cordova/node_modules/semver/semver.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/.documentup.json" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/.documentup.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/.jshintrc" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/.jshintrc" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/RELEASE.md" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/RELEASE.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/bin/shjs" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/bin/shjs" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/global.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/global.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/make.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/make.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/scripts/generate-docs.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/scripts/generate-docs.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/scripts/run-tests.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/scripts/run-tests.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/shell.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/shell.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cat.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cat.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cd.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cd.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/chmod.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/chmod.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/common.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/common.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cp.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/cp.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/dirs.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/dirs.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/echo.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/echo.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/error.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/error.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/exec.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/exec.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/find.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/find.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/grep.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/grep.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/ln.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/ln.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/ls.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/ls.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/mkdir.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/mkdir.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/mv.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/mv.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/pwd.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/pwd.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/rm.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/rm.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/sed.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/sed.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/tempdir.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/tempdir.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/test.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/test.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/to.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/to.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/toEnd.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/toEnd.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/which.js" afterPath="$PROJECT_DIR$/cordova/node_modules/shelljs/src/which.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/underscore/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/underscore/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/underscore/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/underscore/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/underscore/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/underscore/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/underscore/underscore-min.js" afterPath="$PROJECT_DIR$/cordova/node_modules/underscore/underscore-min.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/underscore/underscore.js" afterPath="$PROJECT_DIR$/cordova/node_modules/underscore/underscore.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/unorm/LICENSE.md" afterPath="$PROJECT_DIR$/cordova/node_modules/unorm/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/unorm/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/unorm/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/unorm/lib/unorm.js" afterPath="$PROJECT_DIR$/cordova/node_modules/unorm/lib/unorm.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/unorm/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/unorm/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/wrappy/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/wrappy/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/wrappy/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/wrappy/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/wrappy/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/wrappy/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/wrappy/wrappy.js" afterPath="$PROJECT_DIR$/cordova/node_modules/wrappy/wrappy.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/CHANGELOG.md" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/README.md" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/README.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/Utility.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/Utility.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLAttribute.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLAttribute.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLCData.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLCData.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLComment.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLComment.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDAttList.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDAttList.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDElement.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDElement.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDEntity.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDEntity.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDNotation.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDTDNotation.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDeclaration.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDeclaration.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocType.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocType.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocument.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocument.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocumentCB.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLDocumentCB.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLElement.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLElement.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLNode.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLNode.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLRaw.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLRaw.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStreamWriter.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStreamWriter.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStringWriter.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStringWriter.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStringifier.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLStringifier.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLText.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLText.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLWriterBase.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/XMLWriterBase.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/index.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/lib/index.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/xmlbuilder/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/.npmignore" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/.travis.yml" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/LICENSE" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/__package__.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/__package__.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/changelog" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/changelog" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/component.json" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/component.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/dom-parser.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/dom-parser.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/dom.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/dom.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/package.json" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/package.json" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/readme.md" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/readme.md" />
+      <change beforePath="$PROJECT_DIR$/cordova/node_modules/xmldom/sax.js" afterPath="$PROJECT_DIR$/cordova/node_modules/xmldom/sax.js" />
+      <change beforePath="$PROJECT_DIR$/cordova/run" afterPath="$PROJECT_DIR$/cordova/run" />
+      <change beforePath="$PROJECT_DIR$/cordova/run.bat" afterPath="$PROJECT_DIR$/cordova/run.bat" />
+      <change beforePath="$PROJECT_DIR$/cordova/version" afterPath="$PROJECT_DIR$/cordova/version" />
+      <change beforePath="$PROJECT_DIR$/cordova/version.bat" afterPath="$PROJECT_DIR$/cordova/version.bat" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/platform_www/cordova-js-src/android/nativeapiprovider.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/platform_www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platform_www/cordova-js-src/exec.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platform_www/cordova-js-src/platform.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/platform_www/cordova-js-src/plugin/android/app.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platform_www/cordova.js" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova_plugins.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/wrapper.gradle" afterPath="$PROJECT_DIR$/wrapper.gradle" />
+      <change beforePath="$PROJECT_DIR$/../../www/Businessregistration.html" afterPath="$PROJECT_DIR$/../../www/Businessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/Profile2.html" afterPath="$PROJECT_DIR$/../../www/Profile2.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/Registration.html" afterPath="$PROJECT_DIR$/../../www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/Registration2.html" afterPath="$PROJECT_DIR$/../../www/Registration2.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/eBusinessregistration.html" afterPath="$PROJECT_DIR$/../../www/eBusinessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/eRegistration.html" afterPath="$PROJECT_DIR$/../../www/eRegistration.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/find2.html" afterPath="$PROJECT_DIR$/../../www/find2.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/js/registration.js" afterPath="$PROJECT_DIR$/../../www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/../../www/pricing.html" afterPath="$PROJECT_DIR$/../../www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/../../www/requestbusiness.html" afterPath="$PROJECT_DIR$/../../www/requestbusiness.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,106 +697,29 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eBusinessregistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="403" column="93" lean-forward="false" selection-start-line="403" selection-start-column="93" selection-end-line="403" selection-end-column="93" />
-              <folding>
-                <element signature="e#3124#3131#1" expanded="true" />
-                <element signature="e#7644#7651#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/find2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eRegistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-manifest">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Businessregistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>logout</find>
-    </findStrings>
-  </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="D:\keystorefile.jks" />
     <option name="KEY_ALIAS" value="tempeak2" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -3068,22 +3663,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/Registration2.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/Profile2.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/find2.html" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="63" />
-    <option name="y" value="87" />
-    <option name="width" value="1032" />
-    <option name="height" value="471" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="79" />
+    <option name="y" value="68" />
+    <option name="width" value="1181" />
+    <option name="height" value="668" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -3099,17 +3689,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3122,18 +3705,10 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android" type="cbb8eebc:String" user="android" />
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
           </expand>
           <select />
@@ -3144,15 +3719,13 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/release/app-release.apk" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1542182279226" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1543943269172" />
+    <property name="last_opened_file_path" value="D:/keystorefile.jks" />
     <property name="ExportApk.ApkPath" value="C:\Users\dev\Documents\GitHub\Tempeak-Src\src\platforms\android\app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
-    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/release/app-release.apk" />
-    <property name="device.picker.selection" value="emulator-5554" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3310,55 +3883,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="653cd762-66e1-4c49-89bd-6e47a9b656ab" name="Default" comment="" />
-      <created>1542182269202</created>
+      <changelist id="cc8c4a75-c0bd-4d1d-aae9-9bd748c48a6c" name="Default" comment="" />
+      <created>1543943112110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542182269202</updated>
+      <updated>1543943112110</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.42184874" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5781513" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22184874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3369,199 +3933,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/find2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="156" column="16" lean-forward="true" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3124#3131#1" expanded="true" />
-            <element signature="e#7644#7651#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4454">
-          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5015">
-          <caret line="295" column="0" lean-forward="false" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/release/app-release.apk">
-      <provider selected="true" editor-type-id="apk-viewer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/tempeakv2/hellocordova/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilebusiness.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3764">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilecontractor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5566">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="403" column="93" lean-forward="false" selection-start-line="403" selection-start-column="93" selection-end-line="403" selection-end-column="93" />
-          <folding>
-            <element signature="e#3124#3131#1" expanded="true" />
-            <element signature="e#7644#7651#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/find2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

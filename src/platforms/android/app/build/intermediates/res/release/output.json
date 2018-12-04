@@ -1,1 +1,1 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":11000},"path":"resources-release.ap_","properties":{"packageId":"io.tempeakv2.hellocordova","split":"","minSdkVersion":"19"}}]
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":13000},"path":"resources-release.ap_","properties":{"packageId":"com.tempeakv2","split":"","minSdkVersion":"19"}}]

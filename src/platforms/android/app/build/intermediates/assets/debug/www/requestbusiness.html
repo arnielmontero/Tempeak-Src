@@ -172,12 +172,45 @@
 				
 			}
 			
+				
+			function approval(i){
+				var stat = $('#status'+i).val();
+			
+				var form_data = new FormData();   
+					form_data.append('status',stat);
+					form_data.append('idr',i);
+					
+					
+						$.ajax({
+							url: hosturl +'requestsapproval', // point to server-side PHP script 
+							dataType: 'text',  // what to expect back from the PHP script, if anything
+							cache: false,
+							contentType: false,
+							processData: false,
+							data: form_data,                         
+							type: 'post',
+							success: function(data){
+									
+								<!-- alert('saving...'); -->
+							}
+						 });		
+					
+				<!-- alert(i); -->
+				<!-- alert(stat); -->
+				
+				reloadme();
+			}
+			
+			
+			
 			function reloadme(){
 				setTimeout(function(){											
 					window.location.href="./requestbusiness.html?key="+key+"&id="+uid;
 				}, 0);		
 			}
-	
+			
+			
+			
 		
 				 
   </script>

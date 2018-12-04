@@ -49,7 +49,7 @@
         <li class="nav-item">
           <a class="nav-link" data-toggle="tab" href="#home">BASIC</a>
         </li>
-        <li class="nav-item"></li>
+        <li class="nav-item">
           <a class="nav-link" data-toggle="tab" href="#profile">DELUXE</a>
          </li>
          <li class="nav-item">
@@ -65,33 +65,33 @@
               <p class="text-center">No Hiring Fees</p>
               <p class="text-center">Real Time Alerts</p>
               
-              <button style="margin-bottom:20px" class="btn btn-lg btn-warning text-uppercase btn-block" type="submit">Get Plan</button>
+              <button style="margin-bottom:20px" class="btn btn-lg btn-warning text-uppercase btn-block plan" type="submit">Get Plan</button>
            
             </div>
-            <div class="tab-pane fade" id="profile">
-              <h1 style="margin-top:20px" class="text-center text-warning">$89.99</h2>  
-                <p class="text-center" style="margin-top:20px">6 Months Unlimited Access </p>
-                <p class="text-center">Unlimited Request</p>
-                <p class="text-center">No Hiring Fees</p>
-                <p class="text-center">Real Time Alerts</p>
+			<div class="tab-pane fade" id="profile">
+				<h1 style="margin-top:20px" class="text-center text-warning">$89.99</h2>  
+				<p class="text-center" style="margin-top:20px">6 Months Unlimited Access </p>
+				<p class="text-center">Unlimited Request</p>
+				<p class="text-center">No Hiring Fees</p>
+				<p class="text-center">Real Time Alerts</p>
 
-                <button style="margin-bottom:20px" class="btn btn-warning text-uppercase btn-block" type="submit">Get Plan</button>
+				<button style="margin-bottom:20px" class="btn btn-warning text-uppercase btn-block plan" type="submit">Get Plan</button>
 
-              </div>
+			</div>
               <div class="tab-pane fade" id="ultimate">
-                    <h1 style="margin-top:20px" class="text-center text-warning">$79.99</h2>  
-                      <p class="text-center" style="margin-top:20px">12 Months Unlimited Access </p>
-                      <p class="text-center">Unlimited Request</p>
-                      <p class="text-center">No Hiring Fees</p>
-                      <p class="text-center">Real Time Alerts</p>
-      
-                      <button style="margin-bottom:20px" class="btn btn-warning text-uppercase btn-block" type="submit">Get Plan</button>
-      
-                    </div>
+				<h1 style="margin-top:20px" class="text-center text-warning">$79.99</h2>  
+				  <p class="text-center" style="margin-top:20px">12 Months Unlimited Access </p>
+				  <p class="text-center">Unlimited Request</p>
+				  <p class="text-center">No Hiring Fees</p>
+				  <p class="text-center">Real Time Alerts</p>
+  
+				  <button style="margin-bottom:20px" class="btn btn-warning text-uppercase btn-block plan" type="submit">Get Plan</button>
+  
+				</div>
                
             
             </ul>
-            </div>
+         </div>
       <br>
 <div class="container" >
       <div class="container">
@@ -99,17 +99,22 @@
     <p>Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
     <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
 
-  
      </div>
     </div>
-    
-
-  
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		$(".plan").click(function(e){
+			e.preventDefault();	
+			setTimeout(function(){											
+						window.location.href="./Registration.html";
+					}, 0);
+		
+		});
+	</script>
 </body>
 
 </html>
