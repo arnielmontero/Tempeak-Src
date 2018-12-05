@@ -1,1 +1,1 @@
-[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":13000},"path":"AndroidManifest.xml","properties":{"packageId":"io.tempeakv2.hellocordova","split":"","minSdkVersion":"19"}}]
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":13100},"path":"AndroidManifest.xml","properties":{"packageId":"io.tempeakv2.hellocordova","split":"","minSdkVersion":"19"}}]
