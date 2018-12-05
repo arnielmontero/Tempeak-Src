@@ -75,17 +75,17 @@
 
                 <div class="form-group">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="license_number" placeholder="License Number" required >
+                      <input type="number" class="form-control" id="license_number" placeholder="License Number" required >
                     </div>
 
                     <div class="form-group">
                         <div class="form-group">
-                          <input type="text" class="form-control" id="distance" placeholder="No. of miles to commute" required >
+                          <input type="number" class="form-control" id="distance" placeholder="No. of miles to commute" required >
                         </div>
 
                         <div class="form-group">
                             <div class="form-group">
-                              <input type="text" class="form-control" id="salary" placeholder="Hourly salary" required >
+                              <input type="number" class="form-control" id="salary" placeholder="Hourly salary" required >
                             </div>
 
                            
@@ -211,7 +211,12 @@
                            <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
                            <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
                     
-        
+		<style>
+			#Mondayfrom,#Tuesdayfrom,#Wednesdayfrom,#Thursdayfrom,#Fridayfrom,#Saturdayfrom,#Sundayfrom,
+			#Mondayto,#Tuesdayto,#Wednesdayto,#Thursdayto,#Fridayto,#Saturdayto,#Sundayto{
+				font-size:12pt;
+			}
+		</style>
 
 
 
@@ -220,9 +225,9 @@
           <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
           <script type="text/javascript" src="js/bootstrap.min.js"></script>
           <script type="text/javascript" src="js/index.js"></script>
-		  	<script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
-		   <script type="text/javascript" src="js/validation-script.js"></script>
-		   <script>
+		  <script type="text/javascript" src="http://tp.loyaltypower7.com/js/url-ver.js"></script>	
+		  <script type="text/javascript" src="js/validation-script.js"></script>
+		  <script>
 		   $(document).ready(function (){
 		   
 				window.history.pushState(null, "", window.location.href);        

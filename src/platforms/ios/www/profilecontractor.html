@@ -35,12 +35,12 @@
                         <div class="col-4">Date of birth:</div>
                         <div class="col-8 dob"></div>
                         <div class="col-4">Rating:</div>
-                        <div class="col-8">
-                                <span style="color: orange" class="fa fa-star checked"></span>
-                                <span style="color: orange" class="fa fa-star checked"></span>
-                                <span style="color: orange" class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>                   
+                        <div class="col-8 rateme">
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+                                <!-- <span class="fa fa-star"></span> -->
+                                <!-- <span class="fa fa-star"></span>                    -->
                         </div>
                         <div class="col-4">City:</div>
                         <div class="col-8 city"></div>
@@ -59,6 +59,147 @@
                 </div>
               </div>
               </div>
+			  
+		  <div class="container">
+				<div class="card">
+						<div class="card-body">
+							<h5 class="text-warning">Time Available  </h5>
+					
+								<div class="row">
+								   <div class="col">
+										Week Days:
+										<div>Monday</div>
+										<div>Tuesday</div>
+										<div>Wednesday</div>
+										<div>Thursday</div>
+										<div>Friday</div>
+										<div>Saturday</div>
+										<div>Sunday</div>
+									</div>
+									<div class="col times" >
+										<!-- Time: -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+										<!-- <div>7am-8:30am</div> -->
+									</div>
+
+									<div class="col">
+										<br />
+										
+									</div>
+							  </div>
+							  	<br />
+							
+							  <div class='row'>
+<div class="col">							  
+								<button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#editschedule">Edit Time Available</button>
+				</div>			  
+								<div class="modal fade" id="editschedule" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
+											<div class="modal-dialog modal-dialog-centered" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="time1">Updating Time Available</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														<div class="container">
+														
+															<table>
+																<tr>
+																	<th>Days</th>
+																	<th>From:</th>
+																	<th>To:</th>
+																</tr>
+																<tr>
+																	<td>Monday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="mon_input_starttime" >
+																	</td>
+																	<td>
+																		<input type="time" id="mon_input_endtime">
+																	</td>
+																</tr>
+																
+																<tr>
+																	<td>Tuesday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="tue_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="tue_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Wednesday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="wed_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="wed_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Thursday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="thr_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="thr_input_endtime">
+																	</td>
+																</tr>
+																
+																<tr>
+																	<td>Friday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="fri_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="fri_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Saturday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="sat_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="sat_input_endtime">
+																	</td>
+																</tr>
+																<tr>
+																	<td>Sunday &nbsp;</td>
+																	<td>																		
+																		<input type="time" id="sun_input_starttime">
+																	</td>
+																	<td>
+																		<input type="time" id="sun_input_endtime">
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+													<div class="modal-footer">
+													<button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn-sm btn-warning"  onclick="updateTimeSchedules()">Save changes</button>
+													</div>
+												</div>
+											</div>
+										</div>
+							  
+							  </div>
+		
+	
+	
+	</div>
+</div>			  
+			  
+			  
 <br>
 <div style="padding-bottom:15px"class="container">
 <form>
@@ -106,8 +247,6 @@
   </div>
   </form>
 </div>
-
-
               <div class="container">
                     <div class="card">
                             <div class="card-body">
@@ -137,18 +276,25 @@
                           <div class="form-group">
                             <div class="input-group mb-3">
                               <div class="custom-file">
+							  
+									<span class="btn btn-sm btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter2" >View License Cert.</span>
+								
+								<!-- <label>License </label> -->
+								<!-- <input type='file' class="form-control" id="licenseimg" required > -->
+								
+								<label style="margin:0 0 0 20px" class="btn btn-sm btn-outline-warning" id="OpenImgUpload">
+									Choose File<input type="file" hidden id="licenseimg" required>
+								</label>
 							
-								<label>License Upload </label>
-								<input type='file' class="form-control" id="licenseimg" required >
+								
                                 <!-- <input type="file" class="custom-file-input" id="licenseimg" required > -->
                                 <!-- <label class="custom-file-label" for="inputGroupFile02">License</label> -->
+								<button  type="submit" style="margin-left:20px" class="btn btn-warning btn-sm updatelicense">Update</button>
                               </div>
-                              <div class="input-group-append">
-                                <span class="input-group-text" data-toggle="modal" data-target="#exampleModalCenter2" id="">View</span>
-                              </div>
+                           
                             </div>
                           </div>
-					 <button  type="submit" class="btn btn-warning updatelicense">Save</button>
+					 <!-- <button  type="submit" class="btn btn-warning updatelicense">Save</button> -->
 				  </form>
 						  
                           <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
@@ -201,9 +347,70 @@
 		}					
 	
 		var key = sessionStorage.getItem("key");
+
 		
+		function updateTimeSchedules(){
+				var monday		="", 
+					tuesday 	="",
+					wednesday	="",
+					thursday  	="",
+					friday  	="",
+					saturday  	="",
+					sunday  	="";
+		
+
+			if($('#mon_input_starttime').val() !== "" && $('#mon_input_endtime').val() !=="" ){
+				 monday = '"monday":{"from":"'+$('#mon_input_starttime').val()+'","to":"'+ $('#mon_input_endtime').val()+'"}';
+			}
+			if($('#tue_input_starttime').val() !== "" && $('#tue_input_endtime').val() !=="" ){
+				 tuesday = '"tuesday":{"from":"'+$('#tue_input_starttime').val()+'","to":"'+ $('#tue_input_endtime').val()+'"}';
+
+			}
+			if($('#wed_input_starttime').val() !== "" && $('#wed_input_endtime').val() !=="" ){
+				 wednesday = '"wednesday":{"from":"'+$('#wed_input_starttime').val()+'","to":"'+ $('#wed_input_endtime').val()+'"}';
+
+			}
+			if($('#thr_input_starttime').val() !== "" && $('#thr_input_endtime').val() !=="" ){
+				 thursday = '"thursday":{"from":"'+$('#thr_input_starttime').val()+'","to":"'+ $('#thr_input_endtime').val()+'"}';
+			}
+			if($('#fri_input_starttime').val() !== "" && $('#fri_input_endtime').val() !=="" ){
+				 friday = '"friday":{"from":"'+$('#fri_input_starttime').val()+'","to":"'+ $('#fri_input_endtime').val()+'"}';
+			}
+			if($('#sat_input_starttime').val() !== "" && $('#sat_input_endtime').val() !=="" ){
+				 saturday = '"saturday":{"from":"'+$('#sat_input_starttime').val()+'","to":"'+ $('#sat_input_endtime').val()+'"}';
+			}
+			if($('#sun_input_starttime').val() !== "" && $('#sun_input_endtime').val() !=="" ){
+				 sunday = '"sunday":{"from":"'+$('#sun_input_starttime').val()+'","to":"'+ $('#sun_input_endtime').val()+'"}';
+			}		
+
+		
+			var form_data_time_mon = new FormData();  
+			form_data_time_mon.append('key',key);
+			form_data_time_mon.append('monday',monday);
+			form_data_time_mon.append('tuesday',tuesday);
+			form_data_time_mon.append('wednesday',wednesday);
+			form_data_time_mon.append('thursday',thursday);
+			form_data_time_mon.append('friday',friday);
+			form_data_time_mon.append('saturday',saturday);
+			form_data_time_mon.append('sunday',sunday);
 	
-		
+
+			$.ajax({
+				url: hosturl +'updatelistschedule', // point to server-side PHP script 
+				dataType: 'text',  // what to expect back from the PHP script, if anything
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data_time_mon,                         
+				type: 'post',
+				success: function(php_script_response){	
+						setTimeout(function(){											
+							window.location.href="./profilecontractor.html?key="+key;
+					}, 0);				
+				}
+			});		
+		}
+
 		
 		function backtodash(){
 			setTimeout(function(){											
@@ -215,9 +422,32 @@
 		function editprofile(){
 			setTimeout(function(){											
 						window.location.href="./eRegistration.html?key="+key;
-				}, 0);	
-			
+				}, 0);				
 		}
+		
+		var form_data_time = new FormData();  
+		
+		form_data_time.append('key',key);
+		
+		$.ajax({
+			url: hosturl +'listschedule', // point to server-side PHP script 
+			dataType: 'text',  // what to expect back from the PHP script, if anything
+			cache: false,
+			contentType: false,
+			processData: false,
+			data: form_data_time,                         
+			type: 'post',
+			success: function(php_script_response){									
+				datastimes(php_script_response);					
+			}
+		 });		
+		
+		function datastimes(r){			
+			$('.times').append(r);			
+		}
+		
+		
+		
 		
 		
 		var form_data = new FormData();   
@@ -259,10 +489,104 @@
 				$('div.distance').text(info[0].distance +" miles");
 				$('div.salary').text("$ "+ info[0].salary );
 				$('img.license').attr("src", hosturl+"./uploads/"+ info[0].license);
-			
+
 			}
 			
 		}
+		
+		var form_data_rate = new FormData();   
+		form_data_rate.append('key',key);
+		
+		
+			$.ajax({
+				url: hosturl +'information_rate', // point to server-side PHP script 
+				dataType: 'text',  // what to expect back from the PHP script, if anything
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data_rate,                         
+				type: 'post',
+				success: function(rate){									
+					rateme(rate);			
+				}
+			 });	
+		
+		function rateme(b){
+
+		
+		
+			switch (parseInt(b)){
+				
+				case 5:
+						var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>';
+						
+					
+				break;
+				
+				case 4:
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>';
+	
+				
+				break;
+				
+				case 3:
+				
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+			
+					
+				break;
+				
+				case 2:
+				
+					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+
+				
+				
+				break;
+				
+				case 1:
+						var x = '<span style="color: orange" class="fa fa-star checked"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+				
+					
+				break;
+				
+				default:
+						var x = '<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>'
+								+'<span class="fa fa-star"></span>';
+				
+				
+					
+			}
+			$('.rateme').append(x);
+		
+		}
+	
+		        
 		
 		$(document).ready(function(){
 		
