@@ -301,7 +301,14 @@
 							
 					var t = JSON.parse(php_script_response);						
 					$('h4.card-title').text( capitalize_Words(t[0].first_name) +" "+ capitalize_Words(t[0].last_name));					
-					$("img.profpic").attr("src", hosturl+"./uploads/"+ t[0].logo);			
+
+
+					if(t[0].logo !== ''){
+							$("img.profpic").attr("src", hosturl+"./uploads/"+ t[0].logo);
+					}else{
+						$("img.profpic").attr("src","./img/profilelogo.png");
+					}
+
 					sessionStorage.setItem("info", php_script_response);
 					
 					$('#sbusiness').text(t[0].business_name);					
@@ -357,13 +364,18 @@
 			var info =  JSON.parse(sessionStorage.getItem("info"));
 			var userid = info[0].user_id;
 			var imgpicture = $('#imgupload').prop('files')[0];
-			
+
+
+
 			var form_data = new FormData();   
 			form_data.append('id', info[0].user_id);
 			form_data.append('imgpicture', imgpicture);
 			
-			
+
+
 			if(imgpicture !== ""){
+
+
 				$.ajax({
 					url: hosturl +'photoimageb', // point to server-side PHP script 
 					dataType: 'text',  // what to expect back from the PHP script, if anything
@@ -376,7 +388,9 @@
 						sessionStorage.setItem("info", data);					
 						setTimeout(function(){											
 							window.location.href="./Profile2.html?key="+key;
-						}, 0);		
+						}, 0);
+
+
 					}
 				 });			
 			 

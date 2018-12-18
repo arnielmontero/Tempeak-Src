@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.tempeakv2.hellocordova"
     android:hardwareAccelerated="true"
-    android:versionCode="13400"
+    android:versionCode="13500"
     android:versionName="1.0.0" >
 
     <uses-sdk

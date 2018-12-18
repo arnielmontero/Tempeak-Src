@@ -33,10 +33,10 @@
                 </div>
                  <div class="form-group">
 					<div class="row">
-							<div class="d-flex align-items-center col-4">
-								<span class="d-flex align-items-center">Birth of date</span>
+							<div class="d-flex align-items-center col-2">
+								<span class="d-flex align-items-center" >DOB</span>
 							</div>
-							<div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Birth of date" />
+							<div class="col-10"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Birth of date" />
 							</div>
 			   
 						</div>
@@ -137,7 +137,7 @@
                <div class="form-group">
 					<div class="row">
 							<div class="d-flex align-items-center col-4">
-								<span class="d-flex align-items-center">Year of Graduation</span>
+								<span class="d-flex align-items-center">Graduation</span>
 							</div>
 							<div class="col-8">
 								<input class="d-flex align-items-center form-control" id="graduation" name="date" type="date"  />
@@ -261,7 +261,51 @@
 				$('#salary').val(info[0].salary);	
 				sessionStorage.setItem('userid',info[0].user_id);
 				sessionStorage.setItem('keys',info[0].remember_token);
-				
+
+
+				$('#state option[value='+info[0].state+']').attr('selected','selected');
+
+
+					var form_datas_cities = new FormData();
+					form_datas_cities.append('state', info[0].state);
+					var citys = $("#city");
+					var selectedcities = "";
+					$.ajax({
+
+						url: hosturl +'cities',
+						dataType: 'text',  // what to expect back from the PHP script, if anything
+						cache: false,
+						contentType: false,
+						processData: false,
+						data: form_datas_cities,
+						type: 'post',
+						success: function(response){
+
+							var selectcity = "";
+
+							citys.html("");
+							citys.append("<option value=''>City</option>");
+
+							if(response.length > 0) {
+
+								var jp = JSON.parse(response);
+
+								$.each(jp, function (i, value) {
+
+									if(info[0].city === value ){
+										selectcity = "selected = selected";
+									}else{
+										selectcity = "";
+									}
+
+								   citys.append("<option  "+ selectcity +" value='"+value+"'>"+value+"</option>");
+
+
+								});
+							}
+						},
+						error:function(msg){}
+					});
 			}			 
 
 				
@@ -285,7 +329,11 @@
 					graduation = $('#graduation').val();
 					salary = $('#salary').val();
 					distance = $('#distance').val();
-					
+
+
+
+
+
 				var form_data = new FormData(); 
 
 					form_data.append('firstname', firstname);

@@ -13,7 +13,8 @@
     <!--
         <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
         <link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
-    -->
+
+ -->
     <link href="/css/datepicker.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -41,7 +42,7 @@
             </ul>
         </div>
     </nav>
-    <form>
+    <form id="regtarget">
         <div class="container">
             <h1 style="margin-top: 30px" class="form-group col-md-4 text-warning">Registration </h1>
 
@@ -60,13 +61,13 @@
                     <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="email" placeholder="Email Address" required>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="password" placeholder="Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required >
+                    <input type="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  class="form-control" id="password" minlength="8"  placeholder="Password" required >
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="c_password" placeholder="Confirm Password" required >
+                    <input type="password" oninput="check(this)" class="form-control" id="c_password" placeholder="Confirm Password" required >
 
                 </div>
                 <div class="form-group clinicalstaff">
@@ -94,7 +95,7 @@
                                 <div class="d-flex align-items-center col-4">
                                     <span class="d-flex align-items-center">Date of birth</span>
                                 </div>
-                                <div class="col-8"><input class="d-flex align-items-center form-control" type="date" id="date" name="date" type="text" placeholder="Date of birth"  required />
+                                <div class="col-8"><input class="d-flex align-items-center form-control dob" type="date" id="date" name="date" placeholder="Date of birth"  required />
                                 </div>
                             </div>
                             <br>
@@ -145,7 +146,9 @@
 		}					
 	</script>
 	<script type="text/javascript" src="js/registration.js"></script>
-	  
+
+
+
 	<!--  end here-->
 	
 

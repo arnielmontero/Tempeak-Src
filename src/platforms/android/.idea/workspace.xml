@@ -7,15 +7,50 @@
     <list default="true" id="cc8c4a75-c0bd-4d1d-aae9-9bd748c48a6c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/pricing.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/io/tempeakv2/hellocordova/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/io/tempeakv2/hellocordova/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Profile2.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Profile2.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration3.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Registration3.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Search.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/Search.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/eBusinessregistration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/eBusinessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/eRegistration.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/eRegistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/index.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/js/registration.js" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/profileviews.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/profileviews.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/request.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/www/request.html" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/io/tempeakv2/hellocordova/BuildConfig.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/zip-cache/KISgcgRs8wk6yIONIVfKVzcjkRo=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/release/zip-cache/KISgcgRs8wk6yIONIVfKVzcjkRo=" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/release/1/io/tempeakv2/hellocordova/BuildConfig.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/preDex/release/0.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" />
       <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/pricing.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/pricing.html" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" afterPath="$PROJECT_DIR$/app/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Profile2.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Profile2.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Registration.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Registration.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Registration3.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Registration3.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/Search.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/Search.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/index.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/js/registration.js" afterPath="$PROJECT_DIR$/app/src/main/assets/www/js/registration.js" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/profileviews.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/profileviews.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/www/request.html" afterPath="$PROJECT_DIR$/app/src/main/assets/www/request.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,94 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="Profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="98" lean-forward="false" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profilebusiness.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilebusiness.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bregistraion2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Bregistraion2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Businessregistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1632">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eBusinessregistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="124" column="111" lean-forward="false" selection-start-line="124" selection-start-column="111" selection-end-line="124" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eRegistration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="120" column="104" lean-forward="false" selection-start-line="120" selection-start-column="104" selection-end-line="120" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pricing.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/pricing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="73" />
+            <state relative-caret-position="17">
+              <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -134,8 +86,28 @@
       <file leaf-file-name="profilecontractor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilecontractor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="257" column="22" lean-forward="false" selection-start-line="257" selection-start-column="22" selection-end-line="257" selection-end-column="22" />
+            <state relative-caret-position="17">
+              <caret line="245" column="97" lean-forward="false" selection-start-line="245" selection-start-column="97" selection-end-line="245" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eRegistration.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1051">
+              <caret line="307" column="23" lean-forward="false" selection-start-line="307" selection-start-column="23" selection-end-line="307" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eBusinessregistration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4641">
+              <caret line="273" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3096,22 +3068,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html" />
         <option value="$PROJECT_DIR$/app/src/main/assets/www/Registration2.html" />
         <option value="$PROJECT_DIR$/app/src/main/assets/www/Bregistraion2.html" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/assets/www/profilecontractor.html" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/assets/www/pricing.html" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/Profile2.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/js/registration.js" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/request.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/Registration3.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/Search.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/Registration.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/profileviews.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="79" />
-    <option name="y" value="68" />
-    <option name="width" value="1181" />
-    <option name="height" value="668" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="376" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3129,19 +3109,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
@@ -3162,8 +3136,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3358,7 +3333,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.13277312" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.19495799" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3368,7 +3343,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.8672269" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.805042" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24705882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49107143" order="1" side_tool="false" content_ui="tabs" />
@@ -3393,11 +3368,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="104" lean-forward="false" selection-start-line="120" selection-start-column="104" selection-end-line="120" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilecontractor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4369">
+          <caret line="257" column="22" lean-forward="false" selection-start-line="257" selection-start-column="22" selection-end-line="257" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3413,7 +3408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="124" column="98" lean-forward="false" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3421,7 +3415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
           <caret line="230" column="46" lean-forward="false" selection-start-line="230" selection-start-column="46" selection-end-line="230" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3429,7 +3422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3437,7 +3429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="124" column="111" lean-forward="false" selection-start-line="124" selection-start-column="111" selection-end-line="124" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3445,7 +3436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="120" column="104" lean-forward="false" selection-start-line="120" selection-start-column="104" selection-end-line="120" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3453,7 +3443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" column="113" lean-forward="false" selection-start-line="84" selection-start-column="99" selection-end-line="84" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3461,7 +3450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3583,17 +3571,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Bregistraion2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="120" column="104" lean-forward="false" selection-start-line="120" selection-start-column="104" selection-end-line="120" selection-end-column="104" />
-          <folding />
+        <state relative-caret-position="1717">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile2.html">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3060">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -3602,7 +3589,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="73" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/js/registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -3610,65 +3621,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="124" column="98" lean-forward="false" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/find.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="128" column="8" lean-forward="false" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187">
+          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="44" column="82" lean-forward="false" selection-start-line="44" selection-start-column="82" selection-end-line="44" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilebusiness.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="536">
+          <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1468">
+          <caret line="131" column="66" lean-forward="false" selection-start-line="131" selection-start-column="66" selection-end-line="131" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="235" column="57" lean-forward="false" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profileviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/find2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/requestbusiness.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="98" column="47" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="64" lean-forward="false" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="273" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Businessregistration.html">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/profilecontractor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="257" column="22" lean-forward="false" selection-start-line="257" selection-start-column="22" selection-end-line="257" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="245" column="97" lean-forward="false" selection-start-line="245" selection-start-column="97" selection-end-line="245" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eBusinessregistration.html">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/eRegistration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="124" column="111" lean-forward="false" selection-start-line="124" selection-start-column="111" selection-end-line="124" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/Bregistraion2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/www/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="73" />
+        <state relative-caret-position="-1051">
+          <caret line="307" column="23" lean-forward="false" selection-start-line="307" selection-start-column="23" selection-end-line="307" selection-end-column="23" />
           <folding />
         </state>
       </provider>
