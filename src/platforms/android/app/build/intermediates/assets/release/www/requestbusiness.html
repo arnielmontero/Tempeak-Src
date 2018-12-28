@@ -11,7 +11,42 @@
         <link rel="stylesheet" type="text/css" href="./css/index.css" />
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          
+    <style>
+    .xs{
+		    display:none;
+		}
+		.lg{
+		    display:block;
+		}
+
+		@media only screen and (max-width: 384px) {
+			.container, .xtra {
+			font-size:80% !important;
+			}
+			.sel{
+				height: 90% !important;
+				width:70px !important;
+				padding:0 !important;
+				margin:0 !important;
+
+			}
+			.sel option{
+				font-size:80% !important;
+			}
+			.xs{
+	            display:block;
+			}
+			.lg{
+			    display:none;
+			}
+
+		}
+		.ad{
+			padding-left: 10% !important;
+			height: 50% !important;
+		}
+
+	</style>
 </head>
 <body>
 
@@ -31,15 +66,15 @@
         <div class="card-body">         
                 <div  class="text-center">
                         <div class="row">
-                          <div class="col">
+                          <div class="col-3">
                             <a href="#">Name</a>
                             
                           </div>
-                          <div class="col">
+                          <div class="col-3">
                               <a href="#">Date</a>
                          
                           </div>
-                          <div class="col">
+                          <div class="col-6">
                               <a href="#">Status</a>
                         
                           </div>
@@ -79,13 +114,11 @@
 	
 	sessionStorage.setItem('uids',uid);
 	var uids = sessionStorage.getItem('uids');
-  
-  
+
 	function backdash(){
 		setTimeout(function(){											
 					window.location.href="./Profile2.html?key="+key;
-				}, 0);	
-	
+				}, 0);
 	}
 
 	<!-- var x = JSON.parse(sessionStorage.getItem('info')); -->
@@ -210,7 +243,7 @@
 			}
 			
 			
-			
+		$('.ideaDescription').dotdotdot({watch: "window"});
 		
 				 
   </script>

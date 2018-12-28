@@ -148,10 +148,10 @@
 							<div class="custom-file">
 								 <select id="subscription" class="form-control">
 									<small  class="form-text text-muted">Choose from "Contractor or Business Owner</small>
-									<option value='bo_six_month_one_free'> 6 months + 1 month trial
-								($539,94 usd)</option>
-									<option value='bo_three_month_one_free'>3 months + 1 month trial
+									 <option value='bo_three_month_one_free'>3 months + 1 month trial
 								($299,97 usd)</option>
+									 <option value='bo_six_month_one_free'> 6 months + 1 month trial
+								($539,94 usd)</option>
 									<option value='bo_one_year_one_free'> 12 months + 1 month trial
 								($959,88 usd)</option>
 									</select>
@@ -224,7 +224,74 @@
 			$('#website').val(info[0].website);
 			$('#licensenum').val(info[0].license_number);
 			$('#salary').val(info[0].salary);
-			$('#userid').val(info[0].user_id);	
+			$('#userid').val(info[0].user_id);
+
+
+
+			$('#state option[value='+info[0].state+']').attr('selected','selected');
+
+					var form_datas_cities = new FormData();
+					form_datas_cities.append('state', info[0].state);
+					var citys = $("#city");
+					var selectedcities = "";
+					$.ajax({
+
+						url: hosturl +'cities',
+						dataType: 'text',  // what to expect back from the PHP script, if anything
+						cache: false,
+						contentType: false,
+						processData: false,
+						data: form_datas_cities,
+						type: 'post',
+						success: function(response){
+
+							var selectcity = "";
+
+							citys.html("");
+							citys.append("<option value=''>City</option>");
+
+							if(response.length > 0) {
+
+								var jp = JSON.parse(response);
+
+								$.each(jp, function (i, value) {
+
+									if(info[0].city === value ){
+										selectcity = "selected = selected";
+									}else{
+										selectcity = "";
+									}
+
+								   citys.append("<option  "+ selectcity +" value='"+value+"'>"+value+"</option>");
+
+
+								});
+							}
+						},
+						error:function(msg){}
+					});
+
+
+
+
+			if(info[0].subscription == 'bo_three_month_one_free'){
+
+				$('#subscription option[value=bo_three_month_one_free]').attr('selected','selected');
+
+			}
+			if(info[0].subscription == 'bo_six_month_one_free'){
+
+
+				$('#subscription option[value=bo_six_month_one_free]').attr('selected','selected');
+			}
+			if(info[0].subscription == 'bo_one_year_one_free'){
+
+
+				$('#subscription option[value=bo_one_year_one_free]').attr('selected','selected');
+			}
+
+
+
 			
 		}			 
 	

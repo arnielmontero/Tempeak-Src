@@ -131,9 +131,6 @@
 	<!-- Link to Profile Information View -->	
 	function profileview(){		
 			var ee = JSON.parse(sessionStorage.getItem("info"));
-		
-			
-		
 			setTimeout(function(){											
 				window.location.href="./profilecontractor.html?key="+key+"&ids="+ee[0].user_id;
 			}, 0);		
@@ -142,13 +139,12 @@
 	<!-- ends here profile information -->	
 		
 	<!-- Link for Request View -->
-		$('#requestc').click(function(e){			
-			setTimeout(function(){											
-				window.location.href="./request.html?key="+key;
-				
-			}, 0);
-			e.preventDefault();
-		});
+    $('#requestc').click(function(e){
+        setTimeout(function(){
+            window.location.href="./request.html?key="+key;
+        }, 0);
+        e.preventDefault();
+    });
 
 	<!-- end here request view -->
 	

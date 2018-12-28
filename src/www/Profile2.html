@@ -8,9 +8,26 @@
         <link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+	<style>
+	@media only screen and (max-width: 384px) {
+		.container, .xtra {
+		font-size:80% !important;
+		}
+		.sel{
+		height: 90% !important;
+		width:70px !important;
+		padding:0 !important;
+		margin:0 !important;
+
+		}
+		.sel option{
+		font-size:80% !important;
+		}
+
+	}
+
+        </style>
 </head>
 <body>
     <br> 
@@ -143,18 +160,21 @@
 							<br>
 							<div class="row">
 								<div class="col">
-								<label>Date</label>
-								<input id="requestdate" class="form-control form-control-sm" required type='date' placeholder="MM/DD/YYYY">  
+								<label></label>
+								<!-- <input id="requestdate" class="form-control form-control-sm" required type='date' placeholder="MM/DD/YYYY"> -->
+								<input id="requestdate"  data-toggle="modal" data-target="#schedmodal" readonly  class="form-control form-control-sm" required type='text' placeholder="Select date">
 								</div>
 							   
 								<div class="col">
-								<label>Time</label>
-									<input id="requestime" class="form-control form-control-sm" required type="time" placeholder="Time">
+								<label></label>
+									<input id="requestime" data-toggle="modal" data-target="#timemodal" readonly class="form-control form-control-sm" required type="text" placeholder="Time">
 								</div>
 							  </div>
-
-													 
 							</div>
+
+
+
+
 							<div class="modal-footer">
 						<button type="submit" id="findcontractor" class="btn-sm btn-warning">Find Contractor</button>
 							  <button type="button"   class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
@@ -165,6 +185,227 @@
 						</div>
 					  </div>
                 </div>
+
+	   <div class="modal fade" id="schedmodal" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
+		   <div class="modal-dialog modal-dialog-centered" role="document">
+			   <div class="modal-content">
+				   <div class="modal-header">
+					   <h5 class="modal-title" id="time1">Set Date</h5>
+					   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						   <span aria-hidden="true">&times;</span>
+					   </button>
+				   </div>
+				   <div class="modal-body">
+					   <div class="container">
+
+						   <div class="row">
+							   <div class="col-4">
+								   <select class='schedyear form-control sel' required>
+									   <option value="">Year</option>
+									   <option value="2019">2019</option>
+									   <option value="2020">2020</option>
+									   <option value="2021">2021</option>
+									   <option value="2022">2022</option>
+									   <option value="2023">2023</option>
+									   <option value="2024">2024</option>
+									   <option value="2025">2025</option>
+
+								   </select>
+							   </div>
+							   <div class="col-4">
+								   <select class='schedmonth form-control sel' required>
+									   <option value="">Month</option>
+									   <option value="01">01</option>
+									   <option value="02">02</option>
+									   <option value="03">03</option>
+									   <option value="04">04</option>
+									   <option value="05">05</option>
+									   <option value="06">06</option>
+									   <option value="07">07</option>
+									   <option value="08">08</option>
+									   <option value="09">09</option>
+									   <option value="10">10</option>
+									   <option value="11">11</option>
+									   <option value="12">12</option>
+								   </select>
+							   </div>
+							   <div class="col-4">
+								   <select class='schedday form-control sel' required>
+									   <option value="">Day</option>
+									   <option value="01">01</option>
+									   <option value="02">02</option>
+									   <option value="03">03</option>
+									   <option value="04">04</option>
+									   <option value="05">05</option>
+									   <option value="06">06</option>
+									   <option value="07">07</option>
+									   <option value="08">08</option>
+									   <option value="09">09</option>
+									   <option value="10">10</option>
+									   <option value="11">11</option>
+									   <option value="12">12</option>
+									   <option value="12">13</option>
+									   <option value="14">14</option>
+									   <option value="15">15</option>
+									   <option value="16">16</option>
+									   <option value="17">17</option>
+									   <option value="18">18</option>
+									   <option value="19">19</option>
+									   <option value="20">20</option>
+									   <option value="21">21</option>
+									   <option value="22">22</option>
+									   <option value="23">23</option>
+									   <option value="24">24</option>
+									   <option value="25">25</option>
+									   <option value="26">26</option>
+									   <option value="27">27</option>
+									   <option value="28">28</option>
+									   <option value="29">29</option>
+									   <option value="30">30</option>
+									   <option value="31">31</option>
+								   </select>
+							   </div>
+
+
+
+
+						   </div>
+						   <br />
+						   <span class='text-warning error' ></span>
+					   </div>
+				   </div>
+				   <div class="modal-footer">
+					   <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
+					   <button type="button" class="btn-sm btn-warning"  onclick="setdate()">Set</button>
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+
+	   <div class="modal fade" id="timemodal" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
+		   <div class="modal-dialog modal-dialog-centered" role="document">
+			   <div class="modal-content">
+				   <div class="modal-header">
+					   <h5 class="modal-title" id="time1">Edit Time</h5>
+					   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						   <span aria-hidden="true">&times;</span>
+					   </button>
+				   </div>
+				   <div class="modal-body">
+					   <div class="container">
+
+						   <div class="row">
+							   <div class="col-4">
+								   <select class='sethr form-control sel' required>
+									   <option value="">Hour</option>
+									   <option value="00">00</option>
+									   <option value="01">01</option>
+									   <option value="02">02</option>
+									   <option value="03">03</option>
+									   <option value="04">04</option>
+									   <option value="05">05</option>
+									   <option value="06">06</option>
+									   <option value="07">07</option>
+									   <option value="08">08</option>
+									   <option value="09">09</option>
+									   <option value="10">10</option>
+									   <option value="11">11</option>
+									   <option value="12">12</option>
+									   <option value="13">13</option>
+									   <option value="14">14</option>
+									   <option value="15">15</option>
+									   <option value="16">16</option>
+									   <option value="17">17</option>
+									   <option value="18">18</option>
+									   <option value="19">19</option>
+									   <option value="20">20</option>
+									   <option value="21">21</option>
+									   <option value="22">22</option>
+									   <option value="23">23</option>
+									   <option value="24">24</option>
+
+								   </select>
+							   </div>
+							   <div class="col-4">
+								   <select class='setmin form-control sel' required>
+									   <option value="">Min</option>
+									   <option value="00">00</option>
+									   <option value="01">01</option>
+									   <option value="02">02</option>
+									   <option value="03">03</option>
+									   <option value="04">04</option>
+									   <option value="05">05</option>
+									   <option value="06">06</option>
+									   <option value="07">07</option>
+									   <option value="08">08</option>
+									   <option value="09">09</option>
+									   <option value="10">10</option>
+									   <option value="11">11</option>
+									   <option value="12">12</option>
+									   <option value="13">13</option>
+									   <option value="14">14</option>
+									   <option value="15">15</option>
+									   <option value="16">16</option>
+									   <option value="17">17</option>
+									   <option value="18">18</option>
+									   <option value="19">19</option>
+									   <option value="20">20</option>
+									   <option value="21">21</option>
+									   <option value="22">22</option>
+									   <option value="23">23</option>
+									   <option value="24">24</option>
+									   <option value="25">25</option>
+									   <option value="26">26</option>
+									   <option value="27">27</option>
+									   <option value="28">28</option>
+									   <option value="29">29</option>
+									   <option value="30">30</option>
+									   <option value="31">31</option>
+									   <option value="32">32</option>
+									   <option value="33">33</option>
+									   <option value="34">34</option>
+									   <option value="35">35</option>
+									   <option value="36">36</option>
+									   <option value="37">37</option>
+									   <option value="38">38</option>
+									   <option value="39">39</option>
+									   <option value="40">40</option>
+									   <option value="41">41</option>
+									   <option value="42">42</option>
+									   <option value="43">43</option>
+									   <option value="44">44</option>
+									   <option value="45">45<option>
+									   <option value="46">46</option>
+									   <option value="47">47</option>
+									   <option value="48">48</option>
+									   <option value="49">49</option>
+									   <option value="50">50</option>
+									   <option value="51">51</option>
+									   <option value="52">52</option>
+									   <option value="53">53</option>
+									   <option value="54">54</option>
+									   <option value="55">55</option>
+									   <option value="56">56</option>
+									   <option value="57">57</option>
+									   <option value="58">58</option>
+									   <option value="59">59</option>
+								   </select>
+
+							   </div>
+
+						   </div>
+						   <br />
+						   <span class='text-warning error' ></span>
+					   </div>
+				   </div>
+				   <div class="modal-footer">
+					   <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
+					   <button type="button" class="btn-sm btn-warning " onclick="settime()" >Set</button>
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+
           <p></p>
             <div class="container d-flex justify-content-left">            
                 <button class="btn btn-outline-warning" data-toggle="modal" data-target="#subs2">Subscription</button>
@@ -256,6 +497,45 @@
 
     <script type="text/javascript">
 
+	function setdate(){
+
+		var setyears = $('.schedyear').val();
+		var setmonths = $('.schedmonth').val();
+		var setdays = $('.schedday').val();
+
+		$("#rem").remove();
+
+		if(setyears != "" && setmonths != "" && setdays != ""){
+			$('#requestdate').val(setyears +'-'+ setmonths +'-'+ setdays);
+			$('#schedmodal').modal('hide');
+		}else{
+
+			$(".error").append("<center><span id='rem'>Please complete the following year month and day.</span></center>");
+		}
+	}
+
+	function settime(){
+
+		var sethr = $('.sethr').val();
+		var setmin = $('.setmin').val();
+
+
+		$("#rem").remove();
+
+		if(sethr != "" && setmin != "" ){
+			$('#requestime').val(sethr +':'+ setmin +':00');
+			$('#timemodal').modal('hide');
+		}else{
+
+			$(".error").append("<center><span id='rem'>Please complete the following hour(s) and minutes.</span></center>");
+		}
+	}
+
+
+
+
+
+
 
 	<!-- window.history.pushState(null, "", window.location.href);         -->
 	<!-- window.onpopstate = function() { -->
@@ -301,7 +581,14 @@
 							
 					var t = JSON.parse(php_script_response);						
 					$('h4.card-title').text( capitalize_Words(t[0].first_name) +" "+ capitalize_Words(t[0].last_name));					
-					$("img.profpic").attr("src", hosturl+"./uploads/"+ t[0].logo);			
+
+
+					if(t[0].logo !== ''){
+							$("img.profpic").attr("src", hosturl+"./uploads/"+ t[0].logo);
+					}else{
+						$("img.profpic").attr("src","./img/profilelogo.png");
+					}
+
 					sessionStorage.setItem("info", php_script_response);
 					
 					$('#sbusiness').text(t[0].business_name);					
@@ -357,13 +644,18 @@
 			var info =  JSON.parse(sessionStorage.getItem("info"));
 			var userid = info[0].user_id;
 			var imgpicture = $('#imgupload').prop('files')[0];
-			
+
+
+
 			var form_data = new FormData();   
 			form_data.append('id', info[0].user_id);
 			form_data.append('imgpicture', imgpicture);
 			
-			
+
+
 			if(imgpicture !== ""){
+
+
 				$.ajax({
 					url: hosturl +'photoimageb', // point to server-side PHP script 
 					dataType: 'text',  // what to expect back from the PHP script, if anything
@@ -376,7 +668,9 @@
 						sessionStorage.setItem("info", data);					
 						setTimeout(function(){											
 							window.location.href="./Profile2.html?key="+key;
-						}, 0);		
+						}, 0);
+
+
 					}
 				 });			
 			 
@@ -419,14 +713,7 @@
         "/" +  this.getFullYear();
     }
 
-    var dt = new Date();
-    $('#requestdate').val(dt.formatMMDDYYYY());
 
-
-        $(function() { 
-        $( "#requestdate" ).datepicker( )});
-		
-		
 
 		
   </script>     

@@ -11,322 +11,415 @@
         <link rel="stylesheet" type="text/css" href="./css/index.css" />
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+	<style>
+		@media only screen and (max-width: 384px) {
+			.container, .xtra {
+			font-size:80% !important;
+			}
+			.sel{
+				height: 90% !important;
+				width:70px !important;
+				padding:0 !important;
+				margin:0 !important;
+
+			}
+			.sel option{
+				font-size:80% !important;
+			}
+
+		}
+		.ad{
+			padding-left: 10% !important;
+			height: 50% !important;
+		}
+	</style>
+
+
 </head>
 <body>
 
-          <br>
-          <div class="container d-flex align-items-center">
-              <i style="margin-left:20px" class="material-icons">
-                      arrow_back_ios
-                      </i><a class="text-warning" href="" onclick="backtodash()">Return to Dashboard</a>   
-              </div>
+	<br>
+	<div class="container d-flex align-items-center">
+		<i style="margin-left:20px" class="material-icons">
+			  arrow_back_ios
+		</i><a class="text-warning" href="" onclick="backtodash()">Return to Dashboard</a>
+	</div>
   
     <div class="container">
         <img class="logonow" src="./img/Teampeak logo.png" alt="Flowers in Chania" width="300">
         <br>
+		<!-- 1st block-->
+		<div class="container">
+			<div class="card ">
+				<h5 class="card-header name"><strong></strong></h5>
+				<div class="card-body">
+					<h5 class="text-warning">Profile Details</h5>
+					<div class="row">
+						<div class="col-4">DOB:</div>
+						<div class="col-8 dob"></div>
+						<div class="col-4">Rating:</div>
+						<div class="col-8 rateme">
+								<!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+								<!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+								<!-- <span style="color: orange" class="fa fa-star checked"></span> -->
+								<!-- <span class="fa fa-star"></span> -->
+								<!-- <span class="fa fa-star"></span>                    -->
+						</div>
+						<div class="col-4">City:</div>
+						<div class="col-8 city"></div>
+						<div class="col-4">Address:</div>
+						<div class="col-8 address"></div>
+						<div class="col-4 ">State:</div>
+						<div class="col-8 state"></div>
+						<div class="col-4">Zip Code:</div>
+						<div class="col-8 zipcode"></div>
+						<div class="col-4">Phone:</div>
+						<div class="col-8 phone"></div>
+						<div class="col-4">Email:</div>
+						<div class="col-8 email"></div>
+					</div>
 
-        <div class="container">
-        <div class="card">
-                <h5 class="card-header name"><strong></strong></h5>
-                <div class="card-body">
-                    <h5 class="text-warning">Profile Details</h5>
-                  <div class="row">
-                        <div class="col-4">Date of birth:</div>
-                        <div class="col-8 dob"></div>
-                        <div class="col-4">Rating:</div>
-                        <div class="col-8 rateme">
-                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
-                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
-                                <!-- <span style="color: orange" class="fa fa-star checked"></span> -->
-                                <!-- <span class="fa fa-star"></span> -->
-                                <!-- <span class="fa fa-star"></span>                    -->
-                        </div>
-                        <div class="col-4">City:</div>
-                        <div class="col-8 city"></div>
-                        <div class="col-4">Address:</div>
-                        <div class="col-8 address"></div>
-                        <div class="col-4 ">State:</div>
-                        <div class="col-8 state"></div>
-                        <div class="col-4">Zip Code:</div>
-                        <div class="col-8 zipcode"></div>
-                        <div class="col-4">Phone:</div>
-                        <div class="col-8 phone"></div>
-                        <div class="col-4">Email:</div>
-                        <div class="col-8 email"></div>
-                     </div> 
-                    
-                </div>
-              </div>
-              </div>
-			  
-		  <div class="container">
-				<div class="card">
-						<div class="card-body">
-							<h5 class="text-warning">Time Available  </h5>
-					
-								<div class="row">
-								   <div class="col">
-										Week Days:
-										<div>Monday</div>
-										<div>Tuesday</div>
-										<div>Wednesday</div>
-										<div>Thursday</div>
-										<div>Friday</div>
-										<div>Saturday</div>
-										<div>Sunday</div>
-									</div>
-									<div class="col times" >
-										<!-- Time: -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-										<!-- <div>7am-8:30am</div> -->
-									</div>
+				</div>
+			</div>
+		</div>
+		<!-- end here-->
+		  <!-- 2nd block -->
+		<div class="container">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="text-warning">Time Available</h5>
+						<div class="row">
+						   <div class="col-4">
+								Week Days:
+								<div>Monday</div>
+								<div>Tuesday</div>
+								<div>Wednesday</div>
+								<div>Thursday</div>
+								<div>Friday</div>
+								<div>Saturday</div>
+								<div>Sunday</div>
+							</div>
+							<div class="col-8 times" >
 
-									<div class="col">
-										<br />
-										
+							</div>
+
+
+					  </div>
+
+				<!-- end here-->
+						<br />
+					<!-- modal view time sched-->
+					<div class='row'>
+						<div class="col">
+							<button type="button" class="btn btn-sm btn-warning xtra" data-toggle="modal" data-target="#editschedule">Edit Time Available</button>
+						</div>
+						<div class="modal fade" id="editschedule" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="time1">Updating Time Available</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
 									</div>
-							  </div>
-							  	<br />
-							
-							  <div class='row'>
-<div class="col">							  
-								<button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#editschedule">Edit Time Available</button>
-				</div>			  
-								<div class="modal fade" id="editschedule" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
-											<div class="modal-dialog modal-dialog-centered" role="document">
-												<div class="modal-content">
-													<div class="modal-header">
-														<h5 class="modal-title" id="time1">Updating Time Available</h5>
-														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-															<span aria-hidden="true">&times;</span>
-														</button>
-													</div>
-													<div class="modal-body">
-														<div class="container">
-														
-															<table>
-																<tr>
-																	<th>Days</th>
-																	<th>From:</th>
-																	<th>To:</th>
-																</tr>
-																<tr>
-																	<td>Monday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="mon_input_starttime" >
-																	</td>
-																	<td>
-																		<input type="time" id="mon_input_endtime">
-																	</td>
-																</tr>
-																
-																<tr>
-																	<td>Tuesday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="tue_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="tue_input_endtime">
-																	</td>
-																</tr>
-																<tr>
-																	<td>Wednesday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="wed_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="wed_input_endtime">
-																	</td>
-																</tr>
-																<tr>
-																	<td>Thursday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="thr_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="thr_input_endtime">
-																	</td>
-																</tr>
-																
-																<tr>
-																	<td>Friday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="fri_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="fri_input_endtime">
-																	</td>
-																</tr>
-																<tr>
-																	<td>Saturday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="sat_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="sat_input_endtime">
-																	</td>
-																</tr>
-																<tr>
-																	<td>Sunday &nbsp;</td>
-																	<td>																		
-																		<input type="time" id="sun_input_starttime">
-																	</td>
-																	<td>
-																		<input type="time" id="sun_input_endtime">
-																	</td>
-																</tr>
-															</table>
-														</div>
-													</div>
-													<div class="modal-footer">
-													<button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Close</button>
-													<button type="button" class="btn-sm btn-warning"  onclick="updateTimeSchedules()">Save changes</button>
-													</div>
-												</div>
+									<div class="modal-body">
+										<div class="container">
+											<div class="row">
+												<div class="col-4">Days</div>
+												<div class="col-4">From:</div>
+												<div class="col-4">To:</div>
 											</div>
+											<br />
+											<div class="row">
+												<div class="col-4">Monday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="mon_input_starttime" onclick= "edittime('mon_input_starttime')" ></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="mon_input_endtime" onclick= "edittime('mon_input_endtime')"></div>
+											</div>
+
+											<div class="row">
+												<div class="col-4">Tuesday</div>
+												<div class="col-4">	<input type="text" readonly class="form-control xtra ad"  id="tue_input_starttime" onclick= "edittime('tue_input_starttime')"></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="tue_input_endtime" onclick= "edittime('tue_input_endtime')"></div>
+											</div>
+
+											<div class="row">
+												<div class="col-4">Wednesday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="wed_input_starttime" onclick= "edittime('wed_input_starttime')"></div>
+												<div class="col-4">	<input type="text" readonly class="form-control xtra ad"  id="wed_input_endtime" onclick= "edittime('wed_input_endtime')"></div>
+
+											</div>
+
+											<div class="row">
+												<div class="col-4">Thursday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="thr_input_starttime" onclick= "edittime('thr_input_starttime')"></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="thr_input_endtime" onclick= "edittime('thr_input_endtime')"></div>
+
+											</div>
+
+											<div class="row">
+												<div class="col-4">Friday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="fri_input_starttime" onclick= "edittime('fri_input_starttime')"></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="fri_input_endtime" onclick= "edittime('fri_input_endtime')"></div>
+
+											</div>
+
+											<div class="row">
+												<div class="col-4">Saturday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="sat_input_starttime" onclick= "edittime('sat_input_starttime')"></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="sat_input_endtime" onclick= "edittime('sat_input_endtime')"></div>
+
+											</div>
+
+											<div class="row">
+												<div class="col-4">Sunday</div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="sun_input_starttime" onclick= "edittime('sun_input_starttime')"></div>
+												<div class="col-4"><input type="text" readonly class="form-control xtra ad"  id="sun_input_endtime" onclick= "edittime('sun_input_endtime')"></div>
+
+											</div>
+
+
 										</div>
-							  
-							  </div>
-		
-	
-	
-	</div>
-</div>			  
-			  
-			  
-<br>
-<div style="padding-bottom:15px"class="container">
-<form>
-  <div class="d-flex justify-content-left">
-
-      <button type="button" data-toggle="modal" data-target="#modalc" class="btn btn-warning btn-sm">Change Password</button>
-
-      <div class="modal fade" id="modalc" tabindex="-1" role="dialog" aria-labelledby="title1" aria-hidden="true">
-          
+									</div>
+									<div class="modal-footer">
+									<button type="button" class="btn-sm btn-secondary"  data-dismiss="modal">Close</button>
+									<button type="button" class="btn-sm btn-warning"  onclick="updateTimeSchedules()">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end here-->
+		<!-- modal settime-->
+		<div class="modal fade" id="timemodal" tabindex="-1" role="dialog" aria-labelledby="time1" aria-hidden="true">
 		  <div class="modal-dialog modal-dialog-centered" role="document">
-          
-		   <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="title1">Change Password</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-			 
-              <div class="modal-body">
-                  
-                      <!-- <div class="form-group"> -->
-                        <!-- <input type="password" class="form-control" id="currentPassword" aria-describedby="emailHelp" placeholder="Current Password" required> -->
-                        <!-- <small id="emailHelp" class="form-text text-muted">Never share your password with anyone else.</small> -->
-                      <!-- </div> -->
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="New Password" required>
-                      </div>
-                      <div class="form-group">
-                          <input type="password" class="form-control" id="c_password" placeholder="Confirm Password">
-                        </div>   
-                     <div class="form-group result">
-						 <small id="respond" class="form-text"></small>
-					 </div>
-              </div>
-              <div class="modal-footer">
-                 <button type="submit" class="btn btn-warning btn-sm savechanges">Save changes</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-              </div>			  
-            </div>		
-          </div>
-        </div>
+			  <div class="modal-content">
+				  <div class="modal-header">
+					  <h5 class="modal-title" id="time1">Edit Time</h5>
+					  <button type="button" class="close" onclick="setclose()" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+					  </button>
+				  </div>
+				  <div class="modal-body">
+					  <div class="container">
 
-      <a href="" style="margin-left:15px" type="button" class="btn btn-warning btn-sm" onclick ="editprofile()">Edit Profile</a>
-  </div>
-  </form>
-</div>
-              <div class="container">
-                    <div class="card">
-                            <div class="card-body">
-                                <h5 class="text-warning">Work Experience</h5>
-                              <div class="row">
-                                    <div class="col-4">School:</div>
-                                    <div class="col-8 school"></div>
-                                   
-                                    <div class="col-4">Graduation:</div>
-                                    <div class="col-8 graduation"></div>
-                                    <div class="col-4">Experience:</div>
-                                    <div class="col-8 experience"></div>
-                                    <div class="col-4">License #:</div>
-                                    <div class="col-8 licensenum"></div>
-                                    <!-- <div class="col-4">Working days:</div> -->
-                                    <!-- <div class="col-8">Fri:04:30pm-04:30am</div> -->
-                                    <div class="col-4">Distance:</div>
-                                    <div class="col-8 distance"></div>
-                                    <div class="col-4">Salary / Hour:</div>
-                                    <div class="col-8 salary">0</div>
-                                 </div> 
- 
-                            </div>
-                          </div>
-                          <br>
-						<form>
-                          <div class="form-group">
-                            <div class="input-group mb-3">
-                              <div class="custom-file">
-							  
-									<span class="btn btn-sm btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter2" >View License Cert.</span>
-								
-								<!-- <label>License </label> -->
-								<!-- <input type='file' class="form-control" id="licenseimg" required > -->
-								
-								<label style="margin:0 0 0 20px" class="btn btn-sm btn-outline-warning" id="OpenImgUpload">
-									Choose File<input type="file" hidden id="licenseimg" required>
-								</label>
-							
-								
-                                <!-- <input type="file" class="custom-file-input" id="licenseimg" required > -->
-                                <!-- <label class="custom-file-label" for="inputGroupFile02">License</label> -->
-								<button  type="submit" style="margin-left:20px" class="btn btn-warning btn-sm updatelicense">Update</button>
-                              </div>
-                           
-                            </div>
-                          </div>
-					 <!-- <button  type="submit" class="btn btn-warning updatelicense">Save</button> -->
-				  </form>
-						  
-                          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLongTitle2">License</h5>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
-                                </div>
-                                <div class="modal-body">
-									<center>
-									<img src="" class="license" width="300" height="300" >
-									</center>
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- <a href="#" type="button" class="btn btn-warning updatelicense">Save</a> -->                       
-                          <br>
-                         
-          <div>
-                                        
-              <p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
-              <p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
-                                    
-                                        </div>
-                
+						  <div class="row">
+							  <div class="col-4">
+								  <select class='hour form-control sel' required>
+									  <option value="">Hour</option>
+									  <option value="01">01</option>
+									  <option value="02">02</option>
+									  <option value="03">03</option>
+									  <option value="04">04</option>
+									  <option value="05">05</option>
+									  <option value="06">06</option>
+									  <option value="07">07</option>
+									  <option value="08">08</option>
+									  <option value="09">09</option>
+									  <option value="10">10</option>
+									  <option value="11">11</option>
+									  <option value="12">12</option>
+								  </select>
+							  </div>
+							  <div class="col-4">
+								  <select class='minute form-control sel' required>
+									  <option value="">Min</option>
+									  <option value="00">00</option>
+									  <option value="01">01</option>
+									  <option value="02">02</option>
+									  <option value="03">03</option>
+									  <option value="04">04</option>
+									  <option value="05">05</option>
+									  <option value="06">06</option>
+									  <option value="07">07</option>
+									  <option value="08">08</option>
+									  <option value="09">09</option>
+									  <option value="10">10</option>
+									  <option value="11">11</option>
+									  <option value="12">12</option>
+									  <option value="13">13</option>
+									  <option value="14">14</option>
+									  <option value="15">15</option>
+									  <option value="16">16</option>
+									  <option value="17">17</option>
+									  <option value="18">18</option>
+									  <option value="19">19</option>
+									  <option value="20">20</option>
+									  <option value="21">21</option>
+									  <option value="22">22</option>
+									  <option value="23">23</option>
+									  <option value="24">24</option>
+									  <option value="25">25</option>
+									  <option value="26">26</option>
+									  <option value="27">27</option>
+									  <option value="28">28</option>
+									  <option value="29">29</option>
+									  <option value="30">30</option>
+									  <option value="31">31</option>
+									  <option value="32">32</option>
+									  <option value="33">33</option>
+									  <option value="34">34</option>
+									  <option value="35">35</option>
+									  <option value="36">36</option>
+									  <option value="37">37</option>
+									  <option value="38">38</option>
+									  <option value="39">39</option>
+									  <option value="40">40</option>
+									  <option value="41">41</option>
+									  <option value="42">42</option>
+									  <option value="43">43</option>
+									  <option value="44">44</option>
+									  <option value="45">45<option>
+									  <option value="46">46</option>
+									  <option value="47">47</option>
+									  <option value="48">48</option>
+									  <option value="49">49</option>
+									  <option value="50">50</option>
+									  <option value="51">51</option>
+									  <option value="52">52</option>
+									  <option value="53">53</option>
+									  <option value="54">54</option>
+									  <option value="55">55</option>
+									  <option value="56">56</option>
+									  <option value="57">57</option>
+									  <option value="58">58</option>
+									  <option value="59">59</option>
+								  </select>
+
+							  </div>
+							  <div class="col-4">
+								  <select class='ampm form-control sel' required>
+									  <option value="am">AM</option>
+									  <option value="pm">PM</option>
+								  </select>
+							  </div>
+						  </div>
+						  <br />
+						  <span class='text-warning error' ></span>
+					  </div>
+				  </div>
+				  <div class="modal-footer">
+					  <button type="button" class="btn-sm btn-secondary" onclick="setclose()">Close</button>
+					  <button type="button" class="btn-sm btn-warning settime"  >Set</button>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+
+			  <br>
+			  <!-- end here -->
+			  <!-- modal change password-->
+		<div style="padding-bottom:15px"class="container">
+			<div class="row">
+			<div class=" col-12">
+				<form>
+					<div class="d-flex justify-content-left">
+						<button type="button" data-toggle="modal" data-target="#modalc" class="btn btn-warning btn-sm xtra">Change Password</button>
+						<div class="modal fade" id="modalc" tabindex="-1" role="dialog" aria-labelledby="title1" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title " id="title1">Change Password</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="form-group">
+											<input type="password" class="form-control" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="New Password" required>
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" id="c_password" placeholder="Confirm Password">
+										</div>
+										<div class="form-group result">
+											<small id="respond" class="form-text"></small>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="submit" class="btn btn-warning btn-sm savechanges">Save changes</button>
+									<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="" style="margin-left:15px" type="button" class="btn btn-warning btn-sm xtra" onclick ="editprofile()">Edit Profile</a>
+					</div>
+				</form>
+			</div>
+			</div>
+		</div>
+		<!-- end here-->
+		<!-- 3rd block -->
+		<div class="container">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="text-warning">Work Experience</h5>
+					<div class="row">
+						<div class="col-4">School:</div>
+						<div class="col-8 school"></div>
+
+						<div class="col-4">Graduation:</div>
+						<div class="col-8 graduation"></div>
+						<div class="col-4">Experience:</div>
+						<div class="col-8 experience"></div>
+						<div class="col-4">License #:</div>
+						<div class="col-8 licensenum"></div>
+						<!-- <div class="col-4">Working days:</div> -->
+						<!-- <div class="col-8">Fri:04:30pm-04:30am</div> -->
+						<div class="col-4">Distance:</div>
+						<div class="col-8 distance"></div>
+						<div class="col-4">Salary/Hr:</div>
+						<div class="col-8 salary">0</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<form>
+				<div class="form-group">
+					<div class="input-group mb-3">
+						<div class="custom-file">
+							<span class="btn btn-sm btn-outline-warning xtra" data-toggle="modal" data-target="#exampleModalCenter2" >View License Cert.</span>
+							<label style="margin:0 0 0 20px" class="btn btn-sm btn-outline-warning xtra" id="OpenImgUpload">
+								Choose File<input type="file" hidden id="licenseimg" required>
+							</label>
+							<button  type="submit" style="margin-left:20px" class="btn btn-warning btn-sm updatelicense xtra">Update</button>
+						</div>
+					</div>
+				</div>
+			</form>
+
+			<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle2">License</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<center>
+							<img src="" class="license" width="300" height="300" >
+							</center>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <a href="#" type="button" class="btn btn-warning updatelicense">Save</a> -->
+			<br>
+			<div>
+				<p style="margin-top:20px">Need Help? <a href="./FAQ.html">FAQ Here!</a></p>
+				<p><a href="./PrivacyPolicy.html">Privacy Policy</a> and <a href="./termsofuse.html">Terms of Use</a> </p>
+			</div>
+		</div>
+
+	</div>
+		<!-- end here-->
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -336,7 +429,33 @@
 
 	<script type="text/javascript" src="js/capitalized.js"></script>
 	<script>
-	
+
+		function edittime(x){
+			$("#editschedule").modal('hide');
+			$("#timemodal").modal('show');
+			$(".settime").attr("onclick","setme('"+x+"')");
+		}
+
+		function setclose(){
+			$("#editschedule").modal('show');
+			$("#timemodal").modal('hide');
+		}
+
+		function setme(n){
+			$("#editschedule").modal('show');
+			var hour = $('.hour').val();
+			var minute = $('.minute').val();
+			var ampm = $('.ampm').val();
+			$("#rem").remove();
+			if(hour != "" && minute != "" ){
+				$('#'+n).val(hour +':'+ minute +' '+ ampm);
+				$('#timemodal').modal('hide');
+			}else{
+				$(".error").append("<center><span id='rem'>Please complete the following hour(s) and minutes.</span></center>");
+			}
+
+		}
+
 		var link = window.location.href; 
 		var url = new URL(link);
 		var keyr = url.searchParams.get("key");
@@ -347,6 +466,22 @@
 		}					
 	
 		var key = sessionStorage.getItem("key");
+
+		function convertTime12to24(time12h) {
+			  const [time, modifier] = time12h.split(' ');
+
+			  let [hours, minutes] = time.split(':');
+
+			  if (hours === '12') {
+				hours = '00';
+			  }
+
+			  if (modifier === 'pm') {
+				hours = parseInt(hours, 10) + 12;
+			  }
+
+		  return hours + ':' + minutes + ':00';
+		}
 
 		
 		function updateTimeSchedules(){
@@ -360,27 +495,32 @@
 		
 
 			if($('#mon_input_starttime').val() !== "" && $('#mon_input_endtime').val() !=="" ){
-				 monday = '"monday":{"from":"'+$('#mon_input_starttime').val()+'","to":"'+ $('#mon_input_endtime').val()+'"}';
+
+
+
+				 monday = '"monday":{"from":"'+ convertTime12to24($('#mon_input_starttime').val()) +'","to":"'+ convertTime12to24($('#mon_input_endtime').val())+'"}';
+
+
 			}
 			if($('#tue_input_starttime').val() !== "" && $('#tue_input_endtime').val() !=="" ){
-				 tuesday = '"tuesday":{"from":"'+$('#tue_input_starttime').val()+'","to":"'+ $('#tue_input_endtime').val()+'"}';
+				 tuesday = '"tuesday":{"from":"'+ convertTime12to24($('#tue_input_starttime').val())+'","to":"'+ convertTime12to24($('#tue_input_endtime').val())+'"}';
 
 			}
 			if($('#wed_input_starttime').val() !== "" && $('#wed_input_endtime').val() !=="" ){
-				 wednesday = '"wednesday":{"from":"'+$('#wed_input_starttime').val()+'","to":"'+ $('#wed_input_endtime').val()+'"}';
+				 wednesday = '"wednesday":{"from":"'+ convertTime12to24($('#wed_input_starttime').val())+'","to":"'+ convertTime12to24($('#wed_input_endtime').val())+'"}';
 
 			}
 			if($('#thr_input_starttime').val() !== "" && $('#thr_input_endtime').val() !=="" ){
-				 thursday = '"thursday":{"from":"'+$('#thr_input_starttime').val()+'","to":"'+ $('#thr_input_endtime').val()+'"}';
+				 thursday = '"thursday":{"from":"'+ convertTime12to24($('#thr_input_starttime').val())+'","to":"'+ convertTime12to24($('#thr_input_endtime').val())+'"}';
 			}
 			if($('#fri_input_starttime').val() !== "" && $('#fri_input_endtime').val() !=="" ){
-				 friday = '"friday":{"from":"'+$('#fri_input_starttime').val()+'","to":"'+ $('#fri_input_endtime').val()+'"}';
+				 friday = '"friday":{"from":"'+ convertTime12to24($('#fri_input_starttime').val())+'","to":"'+ convertTime12to24($('#fri_input_endtime').val())+'"}';
 			}
 			if($('#sat_input_starttime').val() !== "" && $('#sat_input_endtime').val() !=="" ){
-				 saturday = '"saturday":{"from":"'+$('#sat_input_starttime').val()+'","to":"'+ $('#sat_input_endtime').val()+'"}';
+				 saturday = '"saturday":{"from":"'+ convertTime12to24($('#sat_input_starttime').val())+'","to":"'+ convertTime12to24($('#sat_input_endtime').val())+'"}';
 			}
 			if($('#sun_input_starttime').val() !== "" && $('#sun_input_endtime').val() !=="" ){
-				 sunday = '"sunday":{"from":"'+$('#sun_input_starttime').val()+'","to":"'+ $('#sun_input_endtime').val()+'"}';
+				 sunday = '"sunday":{"from":"'+ convertTime12to24($('#sun_input_starttime').val())+'","to":"'+ convertTime12to24($('#sun_input_endtime').val())+'"}';
 			}		
 
 		
@@ -415,8 +555,7 @@
 		function backtodash(){
 			setTimeout(function(){											
 						window.location.href="./Profile.html?key="+key;
-				}, 0);	
-			
+				}, 0);
 		}
 		
 		function editprofile(){
@@ -445,10 +584,7 @@
 		function datastimes(r){			
 			$('.times').append(r);			
 		}
-		
-		
-		
-		
+
 		
 		var form_data = new FormData();   
 		form_data.append('key',key);
@@ -496,8 +632,7 @@
 		
 		var form_data_rate = new FormData();   
 		form_data_rate.append('key',key);
-		
-		
+
 			$.ajax({
 				url: hosturl +'information_rate', // point to server-side PHP script 
 				dataType: 'text',  // what to expect back from the PHP script, if anything
@@ -512,19 +647,13 @@
 			 });	
 		
 		function rateme(b){
-
-		
-		
 			switch (parseInt(b)){
-				
 				case 5:
 						var x = '<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>';
-						
-					
 				break;
 				
 				case 4:
@@ -533,20 +662,14 @@
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span class="fa fa-star"></span>';
-	
-				
 				break;
 				
 				case 3:
-				
 					var x = '<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span style="color: orange" class="fa fa-star checked"></span>'
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>';
-				
-			
-					
 				break;
 				
 				case 2:
@@ -556,9 +679,6 @@
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>';
-
-				
-				
 				break;
 				
 				case 1:
@@ -567,9 +687,6 @@
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>';
-				
-				
-					
 				break;
 				
 				default:
@@ -578,9 +695,6 @@
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>'
 								+'<span class="fa fa-star"></span>';
-				
-				
-					
 			}
 			$('.rateme').append(x);
 		
@@ -595,8 +709,6 @@
 					cpassword = $("#c_password").val(),
 					id = info[0].user_id;
 
-					
-					
 				if(password !== "" && cpassword	!== "" && password === cpassword){					
 					e.preventDefault();	
 					
